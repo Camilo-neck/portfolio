@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-10-23T22:12:17.332Z",
+ "at": "2026-10-23T22:30:04.344Z",
  "gh": {
   "repos": 41,
   "followers": 63,
@@ -53,5 +53,78 @@ var LIVE = {
    }
   ]
  },
- "sp": null
+ "sp": {
+  "tracks": [
+   {
+    "n": "Peli De Terror",
+    "a": "Køddy G, THE FAVORITES, Fharid On the Beat",
+    "al": "Peli De Terror",
+    "img": "https://i.scdn.co/image/ab67616d00001e0269486e4f8b0192aadba8c847",
+    "u": "https://open.spotify.com/track/23XDZWXMOiRrm0qoKXCPbf"
+   },
+   {
+    "n": "GENTE ARMADA",
+    "a": "Topboy TGR",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/0UNelLaxWLkhOAThgbEbkY"
+   },
+   {
+    "n": "DIAMANTES DE SANGRE",
+    "a": "Topboy TGR, Midnvght",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
+   },
+   {
+    "n": "NOMBRE DE DIOS",
+    "a": "Topboy TGR, El Americano 4KT",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/60gfZxCUdJdcQgf2TJUDjP"
+   },
+   {
+    "n": "DRIPPIN",
+    "a": "Topboy TGR, Wallance, Tony Monta, Leroy La L, Fharid On the Beat",
+    "al": "DRIPPIN",
+    "img": "https://i.scdn.co/image/ab67616d00001e022e511b28059e72f3c2a2e919",
+    "u": "https://open.spotify.com/track/7tVmbuyvPDmeoZ2wuHDLc3"
+   }
+  ],
+  "artists": [
+   {
+    "n": "Topboy TGR",
+    "img": "https://i.scdn.co/image/ab6761610000f17859bb182d571556cd0939c9dc",
+    "u": "https://open.spotify.com/artist/1HYdJRbyNCkiko7TAw9rei"
+   },
+   {
+    "n": "Laufey",
+    "img": "https://i.scdn.co/image/ab6761610000f178c751deb23ed62e7cadfb669a",
+    "u": "https://open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO"
+   },
+   {
+    "n": "Michael Jackson",
+    "img": "https://i.scdn.co/image/ab6761610000f178997cc9a4aec335d46c9481fd",
+    "u": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+   },
+   {
+    "n": "Romeo Santos",
+    "img": "https://i.scdn.co/image/ab6761610000f178c8be3c6e5a824360d1bffc03",
+    "u": "https://open.spotify.com/artist/5lwmRuXgjX8xIwlnauTZIP"
+   },
+   {
+    "n": "ARIA VEGA",
+    "img": "https://i.scdn.co/image/ab6761610000f17890a0707fd6b5625fece719ee",
+    "u": "https://open.spotify.com/artist/3e9aKKEgSOjIQS9gv2Nr1X"
+   }
+  ],
+  "last": {
+   "n": "the perfect pair",
+   "a": "beabadoobee",
+   "al": "Beatopia",
+   "img": "https://i.scdn.co/image/ab67616d00001e02384d10f967c2b914de7e2713",
+   "u": "https://open.spotify.com/track/41P6Tnd8KIHqON0QIydx6a",
+   "at": "2026-10-23T21:33:40.267Z"
+  }
+ }
 };
