@@ -1,0 +1,8 @@
+# Cloudflare Pages: las fuentes no cambian (caché de un año); las imágenes, una semana.
+# HTML, CSS y JS quedan con la caché por defecto (revalidan), así cada cambio se ve al instante.
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+/themes/*.webp
+  Cache-Control: public, max-age=604800
+/themes/*.jpg
+  Cache-Control: public, max-age=604800

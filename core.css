@@ -1,0 +1,84 @@
+/* Solo los glifos de los nombres de los juegos, para que cada tarjeta use su fuente en cualquier tema */
+@font-face { font-family: "Alegreya Sans SC"; font-style: normal; font-weight: 400; font-display: swap; src: url("fonts/AlegreyaSansSC-400-sub.woff2") format("woff2"); }
+@font-face { font-family: "Barlow Semi Condensed"; font-style: normal; font-weight: 700; font-display: swap; src: url("fonts/BarlowSemiCondensed-700-sub.woff2") format("woff2"); }
+@font-face { font-family: "Rajdhani"; font-style: normal; font-weight: 700; font-display: swap; src: url("fonts/Rajdhani-700-sub.woff2") format("woff2"); }
+@font-face { font-family: "Minecraft Ten"; src: url("fonts/Minecraft-Tenv2.woff2") format("woff2"); font-display: swap; }
+/* Estructura común a todos los temas: contenedores, rejillas de las secciones y accesibilidad. El aspecto va en themes/<tema>/theme.css. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+a { color: inherit; }
+p { margin: 0 0 1rem; }
+h1, h2, h3, h4 { margin: 0; }
+button { font: inherit; color: inherit; }
+.wrap { max-width: 1200px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.band { position: relative; scroll-margin-top: 6rem; }
+.band .inner { padding-block: clamp(3rem, 7vw, 5rem); }
+.hero-grid { display: grid; gap: 2.5rem; grid-template-columns: minmax(0, 1fr); align-items: center; }
+@media (min-width: 960px) { .hero-grid { grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 3rem; } }
+.cta { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.4rem; }
+.journal { display: grid; gap: 1.25rem; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 900px) { .journal { grid-template-columns: minmax(0, .85fr) minmax(0, 1.6fr); gap: 1.75rem; } }
+.jlist { display: grid; gap: .35rem; align-content: start; min-width: 0; }
+.links { display: flex; flex-wrap: wrap; gap: .6rem; }
+.pubs { display: grid; gap: 1.25rem; }
+.pub { display: grid; gap: 1.5rem; grid-template-columns: minmax(0, 1fr); padding: clamp(1.1rem, 3vw, 2rem); }
+@media (min-width: 960px) { .pub { grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 2.5rem; } }
+.pub-side { display: grid; gap: .9rem; align-content: start; min-width: 0; }
+.net { display: grid; gap: 1.25rem; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 900px) { .net { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); } }
+.rewards { display: grid; gap: 1.25rem; grid-template-columns: minmax(0, 1fr); margin-top: 1.5rem; }
+@media (min-width: 900px) { .rewards { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); } }
+.path { display: grid; gap: 2.5rem; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 800px) { .path { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 3rem; } }
+.clinks { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); }
+/* Selector de tema (popover nativo: Esc y clic afuera lo cierran). El aspecto lo pone cada tema. */
+.thbtn img { display: block; width: 20px; height: 20px; object-fit: contain; }
+.thmenu { position: fixed; inset: auto; margin: 0; width: min(18rem, calc(100vw - 32px)); }
+.thmenu ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .2rem; }
+.thopt { display: flex; align-items: center; gap: .75rem; width: 100%; text-align: left; cursor: pointer; }
+.thopt:disabled { cursor: default; }
+.thopt img { flex: none; width: 32px; height: 32px; object-fit: contain; }
+.thopt span { display: grid; }
+html.th-out body { opacity: 0; transition: opacity .3s; }
+
+/* "Mis juegos favoritos": cada tarjeta lleva la paleta de su juego en cualquier tema, como vista previa */
+.games { display: grid; gap: 1.1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15.5rem), 1fr)); }
+.game { --gbg: #222; --gfg: #fff; --gac: #fff; --gmut: #bbb; display: grid; align-content: start; gap: .55rem; min-width: 0; padding: 1.2rem 1.2rem 1.1rem; border: 0; border-radius: 0;
+  background: var(--gbg); color: var(--gfg); text-align: left; font: 400 1rem/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; cursor: pointer; transition: transform .2s, filter .2s; }
+.game:hover, .game:focus-visible { transform: translateY(-4px); filter: drop-shadow(0 14px 16px rgba(0,0,0,.4)); }
+.game[aria-pressed="true"] { cursor: default; outline: 3px solid var(--gac); outline-offset: 4px; }
+.g-top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.g-top img { width: 52px; height: 52px; object-fit: contain; }
+.g-sw { display: flex; gap: 4px; }
+.g-sw i { width: 14px; height: 14px; background: var(--c); box-shadow: 0 0 0 1px rgba(127,127,127,.35); }
+.g-n { font-size: 1.35rem; line-height: 1.15; color: var(--gac); }
+.g-d { color: var(--gmut); }
+.g-m { color: var(--gfg); font-weight: 600; }
+.g-m small { display: block; font-size: .72rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--gmut); }
+.g-cta { margin-top: .3rem; font-weight: 700; letter-spacing: .03em; color: var(--gac); }
+.game[data-g="cyberpunk"] { --gbg: #0B0709; --gfg: #F2E9E6; --gac: #5CF2F0; --gmut: #B39C9B; box-shadow: inset 4px 0 0 #FF5A5F, inset 0 0 0 1px #4A1E25; }
+.game[data-g="cyberpunk"] .g-n { font-family: "Rajdhani", "Arial Narrow", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+.game[data-g="minecraft"] { --gbg: #48494A; --gfg: #fff; --gac: #9DDF77; --gmut: rgba(255,255,255,.78); border: 2px solid #0E0E0F; box-shadow: inset 0 -6px 0 #333435, inset 0 0 0 2px #5A5B5C; padding-bottom: 1.4rem; }
+.game[data-g="minecraft"] .g-n { font-family: "Minecraft Ten", "Courier New", monospace; font-weight: 400; }
+.game[data-g="minecraft"] img { image-rendering: pixelated; }
+.game[data-g="tsushima"] { --gbg: #ECE7DC; --gfg: #141210; --gac: #C8102E; --gmut: #4A453E; box-shadow: inset 0 0 0 1px rgba(0,0,0,.15); }
+.game[data-g="tsushima"] .g-n { font-family: "Alegreya Sans SC", "Gill Sans", sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: .06em; }
+.game[data-g="spiderman"] { --gbg: #0B1E2B; --gfg: #fff; --gac: #3FE0F0; --gmut: #8FA7B5; box-shadow: inset 0 5px 0 #C1293A, inset 0 0 0 1px rgba(63,224,240,.22); }
+.game[data-g="spiderman"] .g-n { font-family: "Barlow Semi Condensed", "Arial Narrow", sans-serif; font-weight: 700; text-transform: uppercase; }
+
+/* Aviso de la primera visita, con flecha hacia el botón de tema */
+.th-hint { position: fixed; z-index: 45; width: min(19rem, calc(100vw - 32px)); padding: .85rem 2.4rem .9rem 1rem; background: #111; color: #fff; border: 1px solid rgba(255,255,255,.3);
+  font: 400 .95rem/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; box-shadow: 0 16px 36px rgba(0,0,0,.45); animation: hintIn .35s ease both; }
+.th-hint::before { content: ""; position: absolute; top: -7px; right: var(--ax, 18px); width: 12px; height: 12px; background: #111; border-left: 1px solid rgba(255,255,255,.3); border-top: 1px solid rgba(255,255,255,.3); transform: rotate(45deg); }
+.th-hint b { display: block; margin-bottom: .2rem; font-size: 1rem; }
+.th-hint p { margin: 0; color: #D6D6D6; }
+.th-hint a { color: #fff; font-weight: 700; text-underline-offset: 3px; }
+.th-hint .x { position: absolute; top: .25rem; right: .25rem; width: 2rem; height: 2rem; border: 0; background: none; color: #fff; font-size: 1.3rem; line-height: 1; cursor: pointer; }
+.th-hint :focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+@keyframes hintIn { from { opacity: 0; transform: translateY(-6px); } }
+.thbtn.pulse { animation: thpulse 1.8s ease-out infinite; }
+@keyframes thpulse { 0% { box-shadow: 0 0 0 0 rgba(255,255,255,.75); } 100% { box-shadow: 0 0 0 12px rgba(255,255,255,0); } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

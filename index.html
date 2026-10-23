@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Camilo Cuello Romero</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Portafolio de Camilo Andrés Cuello Romero, ingeniero de Sistemas y Computación enfocado en IA aplicada y arquitectura de software.">
+<link rel="stylesheet" href="core.css">
+<script>
+/* Temas disponibles; soon = aún sin construir. El elegido se carga antes de pintar para no mostrar el anterior. */
+var THEMES = [
+  { id: "cyberpunk", name: "Cyberpunk 2077" },
+  { id: "minecraft", name: "Minecraft" },
+  { id: "tsushima", name: "Ghost of Tsushima" },
+  { id: "spiderman", name: "Marvel's Spider-Man" }
+];
+var THEME = (function () {
+  var t; try { t = localStorage.getItem("theme"); } catch (e) {}
+  return THEMES.some(function (x) { return x.id === t && !x.soon; }) ? t : THEMES[0].id;
+})();
+document.documentElement.setAttribute("data-theme", THEME);
+document.write('<link rel="stylesheet" href="themes/' + THEME + '/theme.css">');
+</script>
+</head>
+<body>
+
+
+<header class="hud">
+  <div class="wrap hud-row">
+    <span class="stat c"><b data-u="R">40</b><span data-i18n="hudRepos"></span></span>
+    <span class="stat g"><b data-u="F">62</b><span data-i18n="hudFollow"></span></span>
+    <nav class="tabs" id="tabs" aria-label="Secciones">
+      <span class="key" aria-hidden="true">Q</span>
+      <a class="tab" href="#capacidades"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 2l9 5v10l-9 5-9-5V7z"/></svg><span data-i18n="nav1"></span></a>
+      <a class="tab" href="#proyectos"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M5 3h14v18H5zM9 8h6M9 12h6M9 16h4"/></svg><span data-i18n="nav2"></span></a>
+      <a class="tab" href="#publicaciones"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7"/></svg><span data-i18n="nav3"></span></a>
+      <a class="tab" href="#github"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 2l10 10-10 10L2 12z"/></svg><span>GitHub</span></a>
+      <a class="tab" href="#acceso"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/></svg><span data-i18n="nav4"></span></a>
+      <a class="tab" href="#trayectoria"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M4 20V4M4 6h12l-3 4 3 4H4"/></svg><span data-i18n="nav5"></span></a>
+      <a class="tab" href="#contacto"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M3 5h18v14H3zM3 6l9 7 9-7"/></svg><span data-i18n="nav6"></span></a>
+      <span class="key" aria-hidden="true">E</span>
+    </nav>
+    <div class="right">
+      <span class="lock" id="lockStat" title=""><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 10V8a6 6 0 1 1 12 0v2h1v12H5V10zm2 0h8V8a4 4 0 1 0-8 0z"/></svg><span id="lockN">0/3</span></span>
+      <span class="clock" id="clock">--:--</span>
+      <button class="ibtn thbtn" id="thBtn" type="button" popovertarget="thMenu"><img id="thIcon" src="" alt="" width="20" height="20"></button>
+      <button class="ibtn" id="langBtn" type="button">EN</button>
+    </div>
+    <div class="thmenu" id="thMenu" popover>
+      <p class="thmenu-h" data-i18n="thTitle"></p>
+      <ul id="thList"></ul>
+    </div>
+  </div>
+  <div class="hud-line"></div>
+</header>
+
+<main>
+  <section class="band hero" id="inicio">
+    <div class="wrap inner">
+      <div class="hero-grid">
+        <div>
+          <p class="status"><i aria-hidden="true"></i><span data-i18n="status"></span></p>
+          <h1 class="name glitch" id="heroName" data-text="Camilo Andrés&#10;Cuello Romero">Camilo Andrés
+Cuello Romero</h1>
+          <p class="role" data-i18n="role"></p>
+          <p class="tagline" id="tagline"></p>
+          <p class="lede" data-i18n="lede"></p>
+          <div class="cta">
+            <a class="btn" href="#capacidades" data-i18n="cta1"></a>
+            <a class="btn c" href="#acceso" data-i18n="cta2"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="capacidades">
+    <div class="wrap inner">
+      <div class="sec-h"><h2 data-i18n="capTitle"></h2><span class="code">SYS/01</span></div>
+      <p class="sub" data-i18n="capSub"></p>
+    </div>
+  </section>
+
+  <section class="band" id="proyectos">
+    <div class="wrap inner">
+      <div class="sec-h"><h2 data-i18n="projTitle"></h2><span class="code">LOG/02</span></div>
+      <p class="sub" data-i18n="projSub"></p>
+      <div class="jf" id="jFilters" role="group"></div>
+      <div class="journal">
+        <div class="jlist" id="jList" role="tablist" aria-orientation="vertical"></div>
+        <div class="brk jdetail" id="jDetail" role="tabpanel" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="publicaciones">
+    <div class="wrap inner">
+      <div class="sec-h"><h2 data-i18n="pubTitle"></h2><span class="code">PUB/03</span></div>
+      <p class="sub" data-i18n="pubSub"></p>
+      <div class="pubs" id="pubs"></div>
+    </div>
+  </section>
+
+  <section class="band" id="github">
+    <div class="wrap inner">
+      <div class="sec-h"><h2>GitHub</h2><span class="code">NET/04</span></div>
+      <p class="sub" data-i18n="ghSub"></p>
+      <div class="net">
+        <div class="brk netcard">
+          <p class="handle"><span>@</span>Camilo-neck</p>
+          <dl class="kv">
+            <dt>bio</dt><dd>FullStack Developer</dd>
+            <dt data-i18n="ghOrg"></dt><dd>BetterCampus</dd>
+            <dt data-i18n="ghLoc"></dt><dd>Colombia, UTC−05:00</dd>
+          </dl>
+          <div class="nums">
+            <div><b>40</b><span data-i18n="ghRepos"></span></div>
+            <div><b>62</b><span data-i18n="ghFollowers"></span></div>
+            <div><b>58</b><span data-i18n="ghFollowing"></span></div>
+          </div>
+          <p class="quote">“Wasup Coder!”</p>
+          <p class="cap" data-i18n="ghQuote"></p>
+          <canvas id="snake" aria-hidden="true"></canvas>
+          <p class="cap" data-i18n="ghSnake"></p>
+        </div>
+        <div class="brk netcard">
+          <div class="sec-h sm" style="margin-bottom:1rem"><h3 style="font-size:1.3rem;letter-spacing:.08em;text-transform:uppercase;color:var(--cyan)" data-i18n="ghPopular"></h3></div>
+          <ul class="repos" id="repos"></ul>
+          <div class="links" style="margin-top:1.2rem"><a class="btn c" href="https://github.com/Camilo-neck/" target="_blank" rel="noopener" data-i18n="ghOpen"></a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="acceso">
+    <div class="wrap inner">
+      <div class="sec-h"><h2 data-i18n="brTitle"></h2><span class="code">ICE/05</span></div>
+      <p class="sub" data-i18n="brSub"></p>
+
+      <div class="rewards">
+        <div class="brk rbox" id="termBox">
+          <h3><span data-i18n="tTitle"></span><span class="chip m">/bin/cc</span></h3>
+          <div class="t-out" id="tOut" role="log" aria-live="polite"></div>
+          <form class="t-form" id="tForm" autocomplete="off">
+            <label for="tIn">visitante@cc:~$</label>
+            <input id="tIn" type="text" spellcheck="false" autocapitalize="off" autocomplete="off">
+          </form>
+          <div class="qchips" id="qchips"></div>
+          <div class="locked" id="lock0"><div class="kc"><div class="kc-p"><small><span class="off" data-i18n="lkT"></span><span class="on" data-i18n="lkOpen"></span></small><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M2 2l10 10L2 22zM22 2L12 12l10 10z"/><path fill="currentColor" opacity=".18" d="M2 2h20L12 12zM2 22h20L12 12z"/></svg><b><span class="off" data-i18n="lkReq"></span><span class="on" data-i18n="lkOk"></span></b></div></div><span data-i18n="lk0"></span></div>
+        </div>
+        <div class="brk rbox" id="arcBox">
+          <h3><span data-i18n="aTitle"></span><span class="chip y">CLASS-B</span></h3>
+          <ul class="archive" id="archive"></ul>
+          <div class="ovr">
+            <p data-i18n="ovrText"></p>
+            <button class="btn c" id="ovrBtn" type="button" disabled></button>
+          </div>
+          <div class="locked" id="lock1"><div class="kc"><div class="kc-p"><small><span class="off" data-i18n="lkT"></span><span class="on" data-i18n="lkOpen"></span></small><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M2 2l10 10L2 22zM22 2L12 12l10 10z"/><path fill="currentColor" opacity=".18" d="M2 2h20L12 12zM2 22h20L12 12z"/></svg><b><span class="off" data-i18n="lkReq"></span><span class="on" data-i18n="lkOk"></span></b></div></div><span data-i18n="lk1"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="trayectoria">
+    <div class="wrap inner">
+      <div class="sec-h"><h2 data-i18n="pathTitle"></h2><span class="code">LOG/06</span></div>
+      <p class="sub" data-i18n="pathSub"></p>
+      <div class="path">
+        <div><h3 data-i18n="pathPast"></h3><ul id="pathPast"></ul></div>
+        <div><h3 data-i18n="pathNext"></h3><ul id="pathNext"></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="juegos">
+    <div class="wrap inner">
+      <div class="sec-h"><h2 data-i18n="gmTitle"></h2><span class="code">GAM/08</span></div>
+      <p class="sub" data-i18n="gmSub"></p>
+      <div class="games" id="games"></div>
+    </div>
+  </section>
+
+  <section class="band" id="contacto">
+    <div class="wrap inner">
+      <div class="sec-h"><h2 data-i18n="contactTitle"></h2><span class="code">COM/07</span></div>
+      <p class="contact-lede" data-i18n="contactText"></p>
+      <div class="clinks">
+        <a class="brk clink" href="https://www.linkedin.com/in/camilo-cuello/" target="_blank" rel="noopener"><b>LinkedIn</b><span>linkedin.com/in/camilo-cuello</span></a>
+        <a class="brk clink" href="https://github.com/Camilo-neck/" target="_blank" rel="noopener"><b>GitHub</b><span>github.com/Camilo-neck</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><span id="copy"></span><span data-i18n="footNote"></span></div></footer>
+
+<script src="data.js"></script>
+<script src="core.js"></script>
+<script>document.write('<script src="themes/' + THEME + '/theme.js"><\/script>');</script>
+
+</body>
+</html>
