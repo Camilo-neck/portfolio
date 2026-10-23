@@ -340,3 +340,23 @@ h1, h2, h3, h4 { font-family: var(--f-ui); font-weight: 600; }
 .clink b { font: 600 1.5rem var(--f-ui); color: var(--n-green); }
 .clink span { font-size: .9rem; color: var(--fg2); overflow-wrap: anywhere; }
 footer .wrap { padding-block: 1.4rem 2rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; font: .95rem var(--f-ui); color: var(--fg2); border-top: 4px solid var(--surf); }
+
+/* ---------- Banda sonora: tocadiscos (portadas pixeladas en theme.js, "Now Playing" con colores que rotan) ---------- */
+.mu-list h3 { font: 400 1.15rem var(--f-ui); color: var(--n-blue); }
+.trk { padding: .45rem .7rem; color: var(--fg); background: var(--surf); border: 2px solid var(--out); }
+.trk:hover { background: #3A3B3C; }
+.tracks li:first-child .trk { box-shadow: inset 0 0 0 2px var(--fg); }
+.trk .tn { font: 400 1.1rem var(--f-ui); color: var(--yl); }
+#musica .ti b { font: 400 1.05rem/1.3 var(--f-ui); }
+#musica .ti span { color: var(--fg2); font-size: .9rem; }
+#musica .cov { image-rendering: pixelated; border: 2px solid var(--out); }
+.eq { color: var(--n-green); }
+.tracks li:first-child .eq i { animation-timing-function: steps(3); }
+.np { color: var(--fg); }
+.np small { font: 400 .95rem var(--f-ui); color: var(--fg2); }
+.np b { font: 400 1.2rem/1.3 var(--f-ui); text-shadow: 2px 2px 0 #3F3F3F; animation: mcNow 2.1s steps(1) infinite; }
+@keyframes mcNow { 0% { color: #FF5555; } 15% { color: #FFAA00; } 30% { color: #FFFF55; } 45% { color: #55FF55; } 60% { color: #55FFFF; } 75% { color: #5555FF; } 90% { color: #FF55FF; } }
+.np time { font-family: var(--f-ui); color: var(--fg3); }
+.artists a { color: var(--fg); }
+.artists span { font-family: var(--f-ui); }
+.artists a:hover .cov { border-color: var(--fg); }

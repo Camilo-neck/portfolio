@@ -345,3 +345,26 @@ footer .wrap { padding-block: 1.3rem 1.8rem; display: flex; flex-wrap: wrap; jus
 :root[data-mode="overload"] .grain { display: block; position: fixed; inset: -50%; z-index: 60; pointer-events: none; opacity: .16; animation: grain .5s steps(4) infinite;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
 @keyframes grain { 25% { transform: translate(-3%, 2%); } 50% { transform: translate(2%, -3%); } 75% { transform: translate(-2%, -1%); } }
+
+/* ---------- Banda sonora: lista en tinta con números kanji; la elegida se tiñe de rojo con borde rasgado ---------- */
+.mu-list h3 { font: 500 1.2rem var(--f-ui); letter-spacing: .08em; color: var(--ink); }
+.tracks { counter-reset: trk; }
+.tracks li { counter-increment: trk; }
+.trk { position: relative; isolation: isolate; padding: .55rem .9rem; color: var(--ink); background: linear-gradient(100deg, var(--card), var(--card2)); }
+.trk::before { content: ""; position: absolute; inset: 0 -18px 0 0; z-index: -1; background: var(--red); opacity: 0; -webkit-mask: var(--torn) 0 0 / 100% 100% no-repeat; mask: var(--torn) 0 0 / 100% 100% no-repeat; transition: opacity .15s; }
+.trk:hover::before, .tracks li:first-child .trk::before { opacity: 1; }
+.trk:hover, .tracks li:first-child .trk { color: #fff; }
+.trk .tn { font-size: 0; text-align: center; }
+.trk .tn::before { content: counter(trk, cjk-decimal); font: 500 1.4rem var(--f-ui); }
+#musica .ti b { font: 500 1.08rem/1.3 var(--f-ui); letter-spacing: .03em; }
+#musica .ti span { font-size: .92rem; opacity: .78; }
+#musica .cov { filter: grayscale(1) sepia(.2) contrast(1.05); transition: filter .2s; }
+#musica a:hover .cov, .tracks li:first-child .cov { filter: none; }
+.eq { color: currentColor; }
+.np { color: var(--ink); }
+.np small { justify-self: start; padding: .2rem 1.2rem .25rem .8rem; background: var(--ink); color: var(--paper); font: 500 .95rem var(--f-ui); letter-spacing: .06em; -webkit-mask: var(--brush) 0 0 / 100% 100% no-repeat; mask: var(--brush) 0 0 / 100% 100% no-repeat; }
+.np b { font: 500 1.25rem/1.25 var(--f-ui); }
+.np time { color: var(--ink2); }
+.artists a { color: var(--ink); }
+.artists .cov { border-radius: 50%; box-shadow: 0 0 0 3px var(--ink); }
+.artists a:hover span { color: var(--red); }

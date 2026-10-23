@@ -421,3 +421,23 @@ h1, h2, h3, h4 { font-family: var(--f-hud); }
 .clink span { font: .88rem var(--f-mono); color: var(--muted); overflow-wrap: anywhere; }
 footer .wrap { padding-block: 1.4rem 2rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; font: .82rem var(--f-mono); color: var(--muted); border-top: 1px solid var(--line); }
 
+
+/* ---------- Banda sonora: puerto de radio (emisora elegida en amarillo, ecualizador cian) ---------- */
+.mu-list h3, .np small { font: 600 .95rem var(--f-hud); letter-spacing: .16em; text-transform: uppercase; color: var(--cyan); }
+.trk { padding: .55rem .8rem; color: var(--fg); background: color-mix(in srgb, var(--bg) 60%, transparent); border-left: 2px solid var(--red-dim); transition: border-color .15s, background .15s; }
+.trk:hover, .tracks li:first-child .trk { border-color: var(--yellow); background: linear-gradient(90deg, color-mix(in srgb, var(--yellow) 13%, transparent), transparent 75%); }
+.trk .tn { font: 700 1.35rem var(--f-hud); color: var(--red); }
+.tracks li:first-child .tn, .trk:hover .tn { color: var(--yellow); }
+#musica .ti b { font: 600 1.08rem/1.25 var(--f-hud); letter-spacing: .04em; text-transform: uppercase; }
+#musica .ti span { color: var(--muted); font-size: .9rem; }
+#musica .cov { clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%); filter: saturate(.85) contrast(1.05); }
+.eq { color: var(--cyan); }
+.mu-now { border-top: 2px solid var(--red); }
+.np { color: var(--fg); }
+.np small { color: var(--red); }
+.np small::before { content: ""; display: inline-block; width: .55rem; height: .55rem; margin-right: .5rem; background: var(--red); vertical-align: .05em; }
+.np time { font-family: var(--f-mono); color: var(--muted); }
+.np:hover b { color: var(--yellow); }
+.artists a { color: var(--fg); }
+.artists a:hover { color: var(--cyan); }
+.artists a:hover .cov { filter: none; outline: 1px solid var(--cyan); }

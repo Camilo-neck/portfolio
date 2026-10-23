@@ -15,9 +15,11 @@ var T = {
     capTitle: "Capacidades", capSub: "Cada sistema agrupa un área y sus módulos. Elige uno para ver qué tiene instalado.",
     projTitle: "Proyectos", projSub: "Productos, experimentos, hackathons, comunidad y código abierto.",
     fAll: "Todos",
-    ghSub: "Datos públicos del perfil a octubre de 2026.", ghOrg: "org", ghLoc: "zona", ghRepos: "Repos", ghFollowers: "Seguidores", ghFollowing: "Siguiendo",
+    ghSub: function (d) { return "Datos públicos del perfil, actualizados el " + d + "."; }, ghOrg: "org", ghLoc: "zona", ghRepos: "Repos", ghFollowers: "Seguidores", ghFollowing: "Siguiendo",
     ghQuote: "El saludo con el que abre el README del perfil.", ghSnake: "Homenaje a la serpiente que se come el gráfico de contribuciones del perfil. Las celdas son decorativas.",
     ghPopular: "Repositorios populares", ghOpen: "Abrir perfil en GitHub", stars: "estrellas",
+    muTitle: "Banda sonora", muSub: function (d) { return "Lo que más he escuchado en Spotify en las últimas cuatro semanas. Datos del " + d + "."; },
+    muTracks: "Canciones más escuchadas", muArtists: "Artistas más escuchados", muLast: "Lo último que sonó", muOpen: "Abrir en Spotify",
     brTitle: "Acceso",
     rw: [["Terminal", "Abre la terminal de consulta."], ["Archivo", "Revela un archivo con datos curiosos."], ["Sobrecarga", "Activa un modo visual alterno."]],
     tTitle: "Terminal", aTitle: "Archivo", lkT: "Bloqueado", lkOpen: "Abierto", lkReq: "Requiere secuencia", lkOk: "Acceso concedido", lk0: "Instala la secuencia Terminal en la matriz para usarla.", lk1: "Instala la secuencia Archivo para abrirlo.",
@@ -45,9 +47,11 @@ var T = {
     capTitle: "Skills", capSub: "Each system groups one area and its modules. Pick one to see what is installed.",
     projTitle: "Projects", projSub: "Products, experiments, hackathons, community and open source.",
     fAll: "All",
-    ghSub: "Public profile data as of October 2026.", ghOrg: "org", ghLoc: "zone", ghRepos: "Repos", ghFollowers: "Followers", ghFollowing: "Following",
+    ghSub: function (d) { return "Public profile data, updated " + d + "."; }, ghOrg: "org", ghLoc: "zone", ghRepos: "Repos", ghFollowers: "Followers", ghFollowing: "Following",
     ghQuote: "The greeting that opens the profile README.", ghSnake: "A nod to the snake that eats the contribution graph on the profile. The cells are decorative.",
     ghPopular: "Popular repositories", ghOpen: "Open GitHub profile", stars: "stars",
+    muTitle: "Soundtrack", muSub: function (d) { return "What I have listened to most on Spotify over the last four weeks. Data from " + d + "."; },
+    muTracks: "Top tracks", muArtists: "Top artists", muLast: "Last played", muOpen: "Open in Spotify",
     brTitle: "Access",
     rw: [["Terminal", "Opens the query terminal."], ["Archive", "Reveals a file with fun facts."], ["Overload", "Turns on an alternate visual mode."]],
     tTitle: "Terminal", aTitle: "Archive", lkT: "Locked", lkOpen: "Open", lkReq: "Sequence required", lkOk: "Access granted", lk0: "Install the Terminal sequence in the matrix to use it.", lk1: "Install the Archive sequence to open it.",
@@ -184,14 +188,17 @@ var PUBS = [
     links: [[{ es: "Leer artículo", en: "Read article" }, "https://agenciadenoticias.unal.edu.co/detalle/bettercampus-mejora-la-experiencia-academica-de-estudiantes-de-la-unal"]] }
 ];
 
-var REPOS = [
-  { n: "Camilo-neck", d: { es: "README del perfil", en: "Profile README" }, l: "Markdown", c: "#8F8F8F", s: 2 },
-  { n: "quizz_app", d: { es: "App de exámenes", en: "Exam app" }, l: "TypeScript", c: "#3178C6", s: 2 },
-  { n: "unlock-web", d: { es: "App en Next.js", en: "Next.js app" }, l: "TypeScript", c: "#3178C6", s: 2 },
-  { n: "Mini_Calculadora", d: { es: "Mini calculadora de clase", en: "Class mini calculator" }, l: "Python", c: "#3572A5", s: 1 },
-  { n: "Probabilidad", d: { es: "Notas y tareas de probabilidad", en: "Probability notes and homework" }, l: "HTML", c: "#E34C26", s: 1 },
-  { n: "BootCamp_FrontEnd", d: { es: "Bootcamp de frontend", en: "Frontend bootcamp" }, l: "HTML", c: "#E34C26", s: 1 }
-];
+/* Repos populares y cifras del perfil: vienen de live.js (scripts/live.mjs). Aquí solo van descripciones propias en los dos idiomas;
+   un repo sin entrada usa la descripción de GitHub. */
+var REPO_D = {
+  "Camilo-neck": { es: "README del perfil", en: "Profile README" },
+  quizz_app: { es: "App de exámenes", en: "Exam app" },
+  "unlock-web": { es: "App en Next.js", en: "Next.js app" },
+  Mini_Calculadora: { es: "Mini calculadora de clase", en: "Class mini calculator" },
+  Probabilidad: { es: "Notas y tareas de probabilidad", en: "Probability notes and homework" },
+  BootCamp_FrontEnd: { es: "Bootcamp de frontend", en: "Frontend bootcamp" }
+};
+var REPOS = LIVE.gh.top.map(function (r) { return { n: r.n, l: r.l, c: r.c, s: r.s, d: REPO_D[r.n] || r.d }; });
 
 var PATH_PAST = [
   { t: { es: "Ingeniería de Sistemas y Computación", en: "Systems and Computing Engineering" }, d: { es: "Universidad Nacional de Colombia, graduado.", en: "Universidad Nacional de Colombia, graduate." } },
@@ -226,7 +233,7 @@ var GAMES = {
 var MENU = {
   capacidades: { icon: "chip", l: "nav1", v: function () { return MOD_COUNT; }, u: { es: "módulos", en: "modules" }, d: { es: "8 sistemas instalados, de IA aplicada a infraestructura.", en: "8 installed systems, from applied AI to infrastructure." } },
   proyectos: { icon: "log", l: "nav2", v: function () { return PROJ.length; }, u: { es: "registros", en: "entries" }, d: { es: "Productos, experimentos, hackathons, comunidad y código.", en: "Products, experiments, hackathons, community and code." } },
-  github: { icon: "net", l: null, label: "GitHub", v: function () { return 40; }, u: { es: "repos", en: "repos" }, d: { es: "Perfil público, repositorios populares y un homenaje a la serpiente.", en: "Public profile, popular repositories and a nod to the snake." } },
+  github: { icon: "net", l: null, label: "GitHub", v: function () { return LIVE.gh.repos; }, u: { es: "repos", en: "repos" }, d: { es: "Perfil público, repositorios populares y un homenaje a la serpiente.", en: "Public profile, popular repositories and a nod to the snake." } },
   trayectoria: { icon: "flag", l: "nav5", v: function () { return PATH_PAST.length + PATH_NEXT.length; }, u: { es: "hitos", en: "milestones" }, d: { es: "Formación, comunidad y lo que sigue.", en: "Education, community and what's next." } },
   contacto: { icon: "mail", l: "nav6", v: function () { return 2; }, u: { es: "canales", en: "channels" }, d: { es: "LinkedIn y GitHub.", en: "LinkedIn and GitHub." } },
   acceso: { icon: "grid", l: "nav4", v: function () { return 3; }, u: { es: "secuencias", en: "sequences" }, d: { es: "Minijuego de matriz de código. Desbloquea la terminal y más.", en: "Code matrix minigame. Unlocks the terminal and more." } }

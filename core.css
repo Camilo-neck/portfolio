@@ -70,6 +70,33 @@ html.th-in.th-go::after { opacity: 0; transition: opacity .45s ease; }
 .game[data-g="spiderman"] { --gbg: #0B1E2B; --gfg: #fff; --gac: #3FE0F0; --gmut: #8FA7B5; box-shadow: inset 0 5px 0 #C1293A, inset 0 0 0 1px rgba(63,224,240,.22); }
 .game[data-g="spiderman"] .g-n { font-family: "Barlow Semi Condensed", "Arial Narrow", sans-serif; font-weight: 700; text-transform: uppercase; }
 
+/* Banda sonora (Spotify): estructura; cada tema pone el aspecto */
+.music { display: grid; gap: 1.25rem; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 900px) { .music { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); } }
+.mu-side { display: grid; gap: 1.25rem; align-content: start; min-width: 0; }
+.mu-list, .mu-now { padding: 1.2rem 1.3rem; min-width: 0; }
+.mu-list h3 { margin-bottom: .9rem; }
+.tracks, .artists { list-style: none; margin: 0; padding: 0; display: grid; gap: .4rem; }
+.cov { display: block; object-fit: cover; }
+.trk { display: grid; grid-template-columns: 2.2ch 56px minmax(0, 1fr) auto; align-items: center; gap: .9rem; text-decoration: none; }
+.trk .cov { width: 56px; height: 56px; }
+.ti { display: grid; min-width: 0; }
+.ti b, .ti span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.eq { display: flex; align-items: flex-end; gap: 2px; height: 16px; }
+.eq i { width: 3px; height: 25%; background: currentColor; }
+.tracks li:first-child .eq i { animation: eq .8s ease-in-out infinite alternate; }
+.eq i:nth-child(2) { animation-delay: -.3s !important; } .eq i:nth-child(3) { animation-delay: -.55s !important; } .eq i:nth-child(4) { animation-delay: -.15s !important; }
+@keyframes eq { to { height: 100%; } }
+.np { display: grid; grid-template-columns: 88px minmax(0, 1fr); align-items: center; gap: .6rem 1rem; text-decoration: none; }
+.np small { grid-column: 1 / -1; }
+.np .cov { width: 88px; height: 88px; }
+.np time { font-size: .85em; }
+.artists { grid-template-columns: repeat(auto-fill, minmax(4.4rem, 1fr)); gap: 1rem .5rem; }
+.artists a { display: grid; justify-items: center; gap: .45rem; text-align: center; text-decoration: none; }
+.artists .cov { width: 64px; height: 64px; }
+.artists span { font-size: .9rem; line-height: 1.25; overflow-wrap: anywhere; }
+@media (max-width: 520px) { .trk { grid-template-columns: 2.2ch 48px minmax(0, 1fr) auto; gap: .7rem; } .trk .cov { width: 48px; height: 48px; } .trk .ti b { white-space: normal; } }
+
 /* Aviso de la primera visita, con flecha hacia el botón de tema */
 .th-hint { position: fixed; z-index: 45; width: min(19rem, calc(100vw - 32px)); padding: .85rem 2.4rem .9rem 1rem; background: #111; color: #fff; border: 1px solid rgba(255,255,255,.3);
   font: 400 .95rem/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; box-shadow: 0 16px 36px rgba(0,0,0,.45); animation: hintIn .35s ease both; }

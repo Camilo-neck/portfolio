@@ -292,6 +292,15 @@
   }
   function mnNew() { mnGen(); renderMine(); mnMsg(tr("mnReady")); }
 
+  /* ---------- Banda sonora: cada portada se redibuja en 16 x 16 píxeles, como un ítem del juego ---------- */
+  function pixelCovers() {
+    $$("#musica img.cov").forEach(function (im) {
+      var c = document.createElement("canvas"); c.width = c.height = 16; c.className = im.className; c.setAttribute("aria-hidden", "true");
+      var src = new Image(); src.onload = function () { c.getContext("2d").drawImage(src, 0, 0, 16, 16); }; src.src = im.src;
+      im.replaceWith(c);
+    });
+  }
+
   /* ---------- Registro del tema ---------- */
   CC.useTheme({
     mount: function () {
@@ -306,7 +315,7 @@
     },
     render: function () {
       $("#tForm label").textContent = tr("tPrompt");
-      renderWorlds(); renderInv(); renderMine();
+      renderWorlds(); renderInv(); renderMine(); pixelCovers();
       if (MN.left === MN.SWINGS && !MN.over) mnMsg(tr("mnReady"));
     },
     start: terrainSize,

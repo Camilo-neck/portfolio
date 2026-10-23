@@ -87,7 +87,7 @@
   }
 
   /* ---------- Barra de recursos (pie) y XP (HUD) ---------- */
-  var RES = [["net", "#3FE0F0", function () { return 40; }], ["flag", "#3EDB6E", function () { return 62; }], ["log", "#E0433F", function () { return PROJ.length; }],
+  var RES = [["net", "#3FE0F0", function () { return LIVE.gh.repos; }], ["flag", "#3EDB6E", function () { return LIVE.gh.followers; }], ["log", "#E0433F", function () { return PROJ.length; }],
     ["grid", "#F29A2E", function () { return PUBS.length; }], ["chip", "#A66BF2", function () { return MOD_COUNT; }], ["mail", "#2EC4B6", function () { return PATH_PAST.length + PATH_NEXT.length; }]];
   function renderRes() {
     var ul = $("#resList"); ul.textContent = "";

@@ -31,8 +31,8 @@ document.write('<link rel="stylesheet" href="themes/' + THEME + '/theme.css">');
 
 <header class="hud">
   <div class="wrap hud-row">
-    <span class="stat c"><b data-u="R">40</b><span data-i18n="hudRepos"></span></span>
-    <span class="stat g"><b data-u="F">62</b><span data-i18n="hudFollow"></span></span>
+    <span class="stat c"><b data-u="R" data-gh="repos"></b><span data-i18n="hudRepos"></span></span>
+    <span class="stat g"><b data-u="F" data-gh="followers"></b><span data-i18n="hudFollow"></span></span>
     <nav class="tabs" id="tabs" aria-label="Secciones">
       <span class="key" aria-hidden="true">Q</span>
       <a class="tab" href="#capacidades"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 2l9 5v10l-9 5-9-5V7z"/></svg><span data-i18n="nav1"></span></a>
@@ -108,19 +108,19 @@ Cuello Romero</h1>
   <section class="band" id="github">
     <div class="wrap inner">
       <div class="sec-h"><h2>GitHub</h2><span class="code">NET/04</span></div>
-      <p class="sub" data-i18n="ghSub"></p>
+      <p class="sub" id="ghSub"></p>
       <div class="net">
         <div class="brk netcard">
           <p class="handle"><span>@</span>Camilo-neck</p>
           <dl class="kv">
-            <dt>bio</dt><dd>FullStack Developer</dd>
-            <dt data-i18n="ghOrg"></dt><dd>BetterCampus</dd>
-            <dt data-i18n="ghLoc"></dt><dd>Colombia, UTC−05:00</dd>
+            <dt>bio</dt><dd data-gh="bio"></dd>
+            <dt data-i18n="ghOrg"></dt><dd data-gh="org"></dd>
+            <dt data-i18n="ghLoc"></dt><dd data-gh="loc"></dd>
           </dl>
           <div class="nums">
-            <div><b>40</b><span data-i18n="ghRepos"></span></div>
-            <div><b>62</b><span data-i18n="ghFollowers"></span></div>
-            <div><b>58</b><span data-i18n="ghFollowing"></span></div>
+            <div><b data-gh="repos"></b><span data-i18n="ghRepos"></span></div>
+            <div><b data-gh="followers"></b><span data-i18n="ghFollowers"></span></div>
+            <div><b data-gh="following"></b><span data-i18n="ghFollowing"></span></div>
           </div>
           <p class="quote">“Wasup Coder!”</p>
           <p class="cap" data-i18n="ghQuote"></p>
@@ -184,6 +184,20 @@ Cuello Romero</h1>
     </div>
   </section>
 
+  <section class="band" id="musica" hidden>
+    <div class="wrap inner">
+      <div class="sec-h"><h2 data-i18n="muTitle"></h2><span class="code">AUD/09</span></div>
+      <p class="sub" id="muSub"></p>
+      <div class="music">
+        <div class="brk mu-list"><h3 data-i18n="muTracks"></h3><ol class="tracks" id="muTracks"></ol></div>
+        <div class="mu-side">
+          <div class="brk mu-now" id="muNow"></div>
+          <div class="brk mu-list"><h3 data-i18n="muArtists"></h3><ul class="artists" id="muArtists"></ul></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="band" id="contacto">
     <div class="wrap inner">
       <div class="sec-h"><h2 data-i18n="contactTitle"></h2><span class="code">COM/07</span></div>
@@ -198,6 +212,7 @@ Cuello Romero</h1>
 
 <footer><div class="wrap"><span id="copy"></span><span data-i18n="footNote"></span></div></footer>
 
+<script src="live.js"></script>
 <script src="data.js"></script>
 <script src="core.js"></script>
 <script>document.write('<script src="themes/' + THEME + '/theme.js"><\/script>');</script>

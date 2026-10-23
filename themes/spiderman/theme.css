@@ -44,7 +44,7 @@ body { background: var(--bg); color: var(--fg); font-family: var(--f-body); font
 h1, h2, h3, h4 { font-family: var(--f-ui); font-weight: 600; }
 
 /* Escuadras de selección: cuatro esquinas en cian */
-.mm-i.on, .jbtn[aria-selected="true"], .sys[aria-pressed="true"] .sys-box, .repos a:hover, .clink:hover {
+.mm-i.on, .jbtn[aria-selected="true"], .sys[aria-pressed="true"] .sys-box, .repos a:hover, .clink:hover, .trk:hover, .tracks li:first-child .trk {
   background-image: linear-gradient(var(--c), var(--c)), linear-gradient(var(--c), var(--c)), linear-gradient(var(--c), var(--c)), linear-gradient(var(--c), var(--c)),
     linear-gradient(var(--c), var(--c)), linear-gradient(var(--c), var(--c)), linear-gradient(var(--c), var(--c)), linear-gradient(var(--c), var(--c));
   background-size: 14px 2px, 2px 14px, 14px 2px, 2px 14px, 14px 2px, 2px 14px, 14px 2px, 2px 14px;
@@ -345,3 +345,20 @@ footer { background: var(--bg); }
 .hexb::before { content: ""; position: absolute; inset: 3px; background: #1A1A22; clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); }
 .hexb svg { position: relative; width: 15px; height: 15px; color: var(--hc); }
 footer .wrap:not(.res-row) { padding-block: 1.2rem 1.8rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; font: 600 .9rem var(--f-ui); letter-spacing: .04em; color: var(--mut); }
+
+/* ---------- Banda sonora: filas de colección con escuadras, aviso tipo pódcast con barra roja y artistas en insignias hexagonales ---------- */
+.mu-list h3 { font: 600 1.1rem var(--f-ui); letter-spacing: .1em; text-transform: uppercase; color: var(--c); }
+.trk { padding: .5rem .8rem; color: var(--fg); background-color: rgba(11,30,43,.7); border: 1px solid var(--line); }
+.trk:hover, .tracks li:first-child .trk { border-color: transparent; background-color: rgba(63,224,240,.08); }
+.trk .tn { font: 600 1.25rem var(--f-ui); color: var(--c); }
+#musica .ti b { font: 600 1.1rem/1.25 var(--f-ui); text-transform: uppercase; letter-spacing: .02em; }
+#musica .ti span { color: var(--mut); font-size: .9rem; }
+.eq { color: var(--c); }
+.mu-now { box-shadow: inset 4px 0 0 var(--bar), inset 0 2px 0 var(--c); }
+.np { color: var(--fg); }
+.np small { justify-self: start; padding: .1rem .7rem; background: var(--bar); color: #fff; font: 600 .9rem var(--f-ui); letter-spacing: .1em; text-transform: uppercase; }
+.np b { font: 600 1.25rem/1.25 var(--f-ui); text-transform: uppercase; }
+.np time { color: var(--mut); }
+.artists a { color: var(--fg); }
+.artists .cov { clip-path: polygon(25% 3%, 75% 3%, 100% 50%, 75% 97%, 25% 97%, 0 50%); }
+.artists a:hover span { color: var(--c); }

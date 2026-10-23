@@ -213,17 +213,52 @@ var CC = (function () {
     });
   }
 
-  /* ---------- GitHub ---------- */
+  /* ---------- GitHub (cifras de live.js) ---------- */
+  function fdate(iso, time) {
+    var o = time ? { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" } : { day: "numeric", month: "long", year: "numeric" };
+    return new Intl.DateTimeFormat(lang === "es" ? "es-CO" : "en-US", o).format(new Date(iso));
+  }
   function renderRepos() {
+    $$("[data-gh]").forEach(function (n) { n.textContent = LIVE.gh[n.getAttribute("data-gh")]; });
+    $("#ghSub").textContent = tr("ghSub")(fdate(LIVE.at));
     var ul = $("#repos"); ul.textContent = "";
     REPOS.forEach(function (r) {
       var li = el("li"), a = el("a"); a.href = "https://github.com/Camilo-neck/" + r.n; a.target = "_blank"; a.rel = "noopener";
       a.appendChild(el("span", "rn", r.n));
       a.appendChild(el("span", "rs", "★ " + r.s));
       var d = el("span", "rd"), lg = el("span"), dot = el("i"); dot.style.setProperty("--lc", r.c); lg.appendChild(dot); lg.appendChild(document.createTextNode(r.l));
-      d.appendChild(lg); d.appendChild(el("span", null, L(r.d))); a.appendChild(d);
+      d.appendChild(lg); if (r.d) d.appendChild(el("span", null, L(r.d))); a.appendChild(d);
       a.setAttribute("aria-label", r.n + ", " + r.l + ", " + r.s + " " + tr("stars"));
       li.appendChild(a); ul.appendChild(li);
+    });
+  }
+
+  /* ---------- Banda sonora (Spotify, de live.js). Sin datos la sección queda oculta ---------- */
+  function cover(src) { var im = el("img", "cov"); im.src = src; im.alt = ""; im.loading = "lazy"; im.decoding = "async"; im.width = im.height = 64; return im; }
+  function renderMusic() {
+    var sp = LIVE.sp; if (!sp) return;
+    $("#muSub").textContent = tr("muSub")(fdate(LIVE.at));
+    var ol = $("#muTracks"); ol.textContent = "";
+    sp.tracks.forEach(function (t, i) {
+      var li = el("li"), a = el("a", "trk"); a.href = t.u; a.target = "_blank"; a.rel = "noopener";
+      a.appendChild(el("span", "tn", String(i + 1).padStart(2, "0"))); if (t.img) a.appendChild(cover(t.img));
+      var ti = el("span", "ti"); ti.appendChild(el("b", null, t.n)); ti.appendChild(el("span", null, t.a)); a.appendChild(ti);
+      var eq = el("span", "eq"); eq.setAttribute("aria-hidden", "true"); for (var k = 0; k < 4; k++) eq.appendChild(el("i")); a.appendChild(eq);
+      a.setAttribute("aria-label", (i + 1) + ". " + t.n + ", " + t.a + " (" + tr("muOpen") + ")");
+      li.appendChild(a); ol.appendChild(li);
+    });
+    var now = $("#muNow"); now.textContent = ""; now.hidden = !sp.last;
+    if (sp.last) {
+      var l = sp.last, h = el("a", "np"); h.href = l.u; h.target = "_blank"; h.rel = "noopener";
+      h.appendChild(el("small", null, tr("muLast"))); if (l.img) h.appendChild(cover(l.img));
+      var nt = el("span", "ti"); nt.appendChild(el("b", null, l.n)); nt.appendChild(el("span", null, l.a));
+      var tm = el("time", null, fdate(l.at, true)); tm.dateTime = l.at; nt.appendChild(tm); h.appendChild(nt);
+      now.appendChild(h);
+    }
+    var ul = $("#muArtists"); ul.textContent = "";
+    sp.artists.forEach(function (r) {
+      var li = el("li"), a = el("a"); a.href = r.u; a.target = "_blank"; a.rel = "noopener"; a.setAttribute("aria-label", r.n + " (" + tr("muOpen") + ")");
+      if (r.img) a.appendChild(cover(r.img)); a.appendChild(el("span", null, r.n)); li.appendChild(a); ul.appendChild(li);
     });
   }
   var snCv = $("#snake"), snx = snCv.getContext("2d"), SN = { cols: 0, rows: 7, cell: 0, grid: [], body: [], dir: [1, 0], acc: 0 };
@@ -314,11 +349,11 @@ var CC = (function () {
     else if (k === "skills") SLOTS.forEach(function (s) { out("[" + L(s.sys) + "] " + L(s.area) + ": " + s.mods.map(function (x) { return L(x.n) + (x.s === "t" ? "*" : ""); }).join(", ")); });
     else if (k === "projects") PROJ.forEach(function (p) { out("- " + L(p.n) + " (" + L(TYPES[p.t]) + ", " + L(p.st) + ")"); });
     else if (k === "pubs") PUBS.forEach(function (p) { out("- " + p.title + ": " + p.subtitle + " (" + p.venue + ", " + L(p.date) + ")", "", p.links[0][1]); });
-    else if (k === "github") { out("@Camilo-neck: 40 repos, 62 " + (es ? "seguidores" : "followers") + "."); out(es ? "Perfil:" : "Profile:", "", LINKS.github); }
+    else if (k === "github") { out("@Camilo-neck: " + LIVE.gh.repos + " repos, " + LIVE.gh.followers + " " + (es ? "seguidores" : "followers") + "."); out(es ? "Perfil:" : "Profile:", "", LINKS.github); }
     else if (k === "path") PATH_PAST.concat(PATH_NEXT).forEach(function (x) { out("- " + L(x.t) + ". " + L(x.d)); });
     else if (k === "contact") { out("LinkedIn:", "", LINKS.linkedin); out("GitHub:", "", LINKS.github); }
     else if (k === "go") {
-      var map = { capacidades: "capacidades", skills: "capacidades", proyectos: "proyectos", projects: "proyectos", publicaciones: "publicaciones", publications: "publicaciones", github: "github", trayectoria: "trayectoria", path: "trayectoria", contacto: "contacto", contact: "contacto", juegos: "juegos", games: "juegos", inicio: "inicio", home: "inicio" }, tgt = map[parts[1]];
+      var map = { capacidades: "capacidades", skills: "capacidades", proyectos: "proyectos", projects: "proyectos", publicaciones: "publicaciones", publications: "publicaciones", github: "github", trayectoria: "trayectoria", path: "trayectoria", contacto: "contacto", contact: "contacto", juegos: "juegos", games: "juegos", musica: "musica", music: "musica", inicio: "inicio", home: "inicio" }, tgt = map[parts[1]];
       if (tgt) { out(es ? "Saltando a " + parts[1] + "..." : "Jumping to " + parts[1] + "...", "sys"); document.getElementById(tgt).scrollIntoView({ behavior: reduce ? "auto" : "smooth" }); }
       else out(es ? "Uso: ir capacidades | proyectos | github | trayectoria | contacto" : "Usage: go skills | projects | github | path | contact");
     }
@@ -349,7 +384,7 @@ var CC = (function () {
   /* ---------- Idioma ---------- */
   function reveal(node, text, ms) { if (theme.reveal) theme.reveal(node, text, ms); else node.textContent = text; }
   function renderAll() {
-    applyStatic(); renderThemes(); renderGames(); renderJFilters(); renderJList(); renderJDetail(false); renderPubs(); renderRepos(); renderPath(); renderChips(); renderArchive();
+    applyStatic(); renderThemes(); renderGames(); renderJFilters(); renderJList(); renderJDetail(false); renderPubs(); renderRepos(); renderMusic(); renderPath(); renderChips(); renderArchive();
     theme.render(); applyUnlocks();
     reveal($("#tagline"), tr("tagline"), 900);
   }
@@ -357,7 +392,8 @@ var CC = (function () {
   $("#langBtn").addEventListener("click", toggleLang);
 
   /* ---------- Navegación ---------- */
-  var tabs = $$("#tabs .tab"), order = ["inicio", "capacidades", "proyectos", "publicaciones", "github", "acceso", "trayectoria", "juegos", "contacto"], cur = "inicio";
+  $("#musica").hidden = !LIVE.sp;
+  var tabs = $$("#tabs .tab"), order = ["inicio", "capacidades", "proyectos", "publicaciones", "github", "acceso", "trayectoria", "juegos", "musica", "contacto"].filter(function (id) { return !document.getElementById(id).hidden; }), cur = "inicio";
   var inBand = {};
   var spy = new IntersectionObserver(function (es) {
     es.forEach(function (e) { inBand[e.target.id] = e.isIntersecting; });
