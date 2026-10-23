@@ -1,0 +1,6 @@
+// Sitio estático en Cloudflare Workers: sin código de servidor, solo archivos. _headers define la caché.
+{
+  "name": "portfolio",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "." }
+}
