@@ -21,6 +21,8 @@ var THEME = (function () {
   return THEMES.some(function (x) { return x.id === t && !x.soon; }) ? t : THEMES[0].id;
 })();
 document.documentElement.setAttribute("data-theme", THEME);
+/* Si venimos de un cambio de tema, la cortina sigue puesta hasta que el tema nuevo esté montado */
+try { if (sessionStorage.getItem("sec") !== null) { document.documentElement.classList.add("th-in"); document.documentElement.style.setProperty("--th-icon", 'url("themes/' + THEME + '/icon.webp")'); } } catch (e) {}
 document.write('<link rel="stylesheet" href="themes/' + THEME + '/theme.css">');
 </script>
 </head>

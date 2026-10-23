@@ -79,8 +79,8 @@ var CC = (function () {
     if (id === THEME) return;
     store("theme", id); store("themeHint", "1");
     try { sessionStorage.setItem("sec", cur); } catch (e) {}
-    if (reduce) { location.reload(); return; }
-    root.classList.add("th-out"); setTimeout(function () { location.reload(); }, 300);
+    root.style.setProperty("--th-icon", 'url("themes/' + id + '/icon.webp")'); root.classList.add("th-out");
+    setTimeout(function () { location.reload(); }, reduce ? 0 : 300);
   }
   /* Tarjetas de "Mis juegos favoritos": cada una con la paleta de su juego, sin importar el tema activo */
   function renderGames() {
@@ -124,6 +124,17 @@ var CC = (function () {
     var n = sec && document.getElementById(sec); if (!n) return;
     if ("scrollRestoration" in history) history.scrollRestoration = "manual";
     n.scrollIntoView({ behavior: "instant" });
+    return n;
+  }
+  /* Quita la cortina del cambio de tema cuando las fuentes ya cargaron (o a los 800 ms), tras volver a la sección */
+  function themeIn(n) {
+    if (!root.classList.contains("th-in")) return;
+    var done = false, go = function () {
+      if (done) return; done = true;
+      if (n) n.scrollIntoView({ behavior: "instant" });
+      root.classList.add("th-go"); setTimeout(function () { root.classList.remove("th-in", "th-go"); }, 450);
+    };
+    if (document.fonts) document.fonts.ready.then(go); setTimeout(go, 800);
   }
 
   /* ---------- Proyectos ---------- */
@@ -392,7 +403,7 @@ var CC = (function () {
     snakeSize();
     reveal($("#heroName"), "Camilo Andrés\nCuello Romero", 1100);
     out(tr("tOnline"), "sys");
-    restoreSection();
+    themeIn(restoreSection());
     setTimeout(showHint, 1200);
     kick();
   }

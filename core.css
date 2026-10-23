@@ -39,7 +39,11 @@ button { font: inherit; color: inherit; }
 .thopt:disabled { cursor: default; }
 .thopt img { flex: none; width: 32px; height: 32px; object-fit: contain; }
 .thopt span { display: grid; }
-html.th-out body { opacity: 0; transition: opacity .3s; }
+/* Cambio de tema: una cortina oscura con el icono del juego que entra cubre la recarga, el montaje y el salto a la sección */
+html.th-out::after, html.th-in::after { content: ""; position: fixed; inset: 0; z-index: 100; background: #0C0C0D var(--th-icon, none) center / 72px no-repeat; }
+html.th-out::after { animation: thOut .3s ease both; }
+html.th-in.th-go::after { opacity: 0; transition: opacity .45s ease; }
+@keyframes thOut { from { opacity: 0; } }
 
 /* "Mis juegos favoritos": cada tarjeta lleva la paleta de su juego en cualquier tema, como vista previa */
 .games { display: grid; gap: 1.1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15.5rem), 1fr)); }
