@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-10-23T22:30:04.344Z",
+ "at": "2026-10-24T14:17:40.809Z",
  "gh": {
   "repos": 41,
   "followers": 63,
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "the perfect pair",
-   "a": "beabadoobee",
-   "al": "Beatopia",
-   "img": "https://i.scdn.co/image/ab67616d00001e02384d10f967c2b914de7e2713",
-   "u": "https://open.spotify.com/track/41P6Tnd8KIHqON0QIydx6a",
-   "at": "2026-10-23T21:33:40.267Z"
+   "n": "Lovefool",
+   "a": "The Cardigans",
+   "al": "First Band On The Moon (Remastered)",
+   "img": "https://i.scdn.co/image/ab67616d00001e020aac8ca880151fda470e91af",
+   "u": "https://open.spotify.com/track/7aQjPecQdIuNd1sz3KCDhD",
+   "at": "2026-10-24T00:50:50.857Z"
   }
  }
 };
