@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-10-24T14:17:40.809Z",
+ "at": "2026-10-25T14:52:27.704Z",
  "gh": {
   "repos": 41,
   "followers": 63,
@@ -84,11 +84,11 @@ var LIVE = {
     "u": "https://open.spotify.com/track/60gfZxCUdJdcQgf2TJUDjP"
    },
    {
-    "n": "DRIPPIN",
-    "a": "Topboy TGR, Wallance, Tony Monta, Leroy La L, Fharid On the Beat",
-    "al": "DRIPPIN",
-    "img": "https://i.scdn.co/image/ab67616d00001e022e511b28059e72f3c2a2e919",
-    "u": "https://open.spotify.com/track/7tVmbuyvPDmeoZ2wuHDLc3"
+    "n": "Mas Bonito",
+    "a": "Chucky73, El Americano 4KT, Topboy TGR",
+    "al": "Mas Bonito",
+    "img": "https://i.scdn.co/image/ab67616d00001e02d51daf2330c075c8c17184a6",
+    "u": "https://open.spotify.com/track/2aoHBiCCpsO54BPFmd2drO"
    }
   ],
   "artists": [
@@ -113,18 +113,18 @@ var LIVE = {
     "u": "https://open.spotify.com/artist/5lwmRuXgjX8xIwlnauTZIP"
    },
    {
-    "n": "ARIA VEGA",
-    "img": "https://i.scdn.co/image/ab6761610000f17890a0707fd6b5625fece719ee",
-    "u": "https://open.spotify.com/artist/3e9aKKEgSOjIQS9gv2Nr1X"
+    "n": "Aventura",
+    "img": "https://i.scdn.co/image/ab6761610000f1784cd0464ef7d8eb8521f72dd8",
+    "u": "https://open.spotify.com/artist/1qto4hHid1P71emI6Fd8xi"
    }
   ],
   "last": {
-   "n": "Lovefool",
-   "a": "The Cardigans",
-   "al": "First Band On The Moon (Remastered)",
-   "img": "https://i.scdn.co/image/ab67616d00001e020aac8ca880151fda470e91af",
-   "u": "https://open.spotify.com/track/7aQjPecQdIuNd1sz3KCDhD",
-   "at": "2026-10-24T00:50:50.857Z"
+   "n": "Lovesick",
+   "a": "Laufey",
+   "al": "Bewitched",
+   "img": "https://i.scdn.co/image/ab67616d00001e0274c732f8aa0e0ccbb3d17d96",
+   "u": "https://open.spotify.com/track/39fD0qvjgk8RarJnoBiDTx",
+   "at": "2026-10-25T14:48:31.039Z"
   }
  }
 };
