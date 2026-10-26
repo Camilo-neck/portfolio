@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-10-25T14:52:27.704Z",
+ "at": "2026-10-26T17:08:52.568Z",
  "gh": {
   "repos": 41,
   "followers": 63,
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Lovesick",
-   "a": "Laufey",
-   "al": "Bewitched",
-   "img": "https://i.scdn.co/image/ab67616d00001e0274c732f8aa0e0ccbb3d17d96",
-   "u": "https://open.spotify.com/track/39fD0qvjgk8RarJnoBiDTx",
-   "at": "2026-10-25T14:48:31.039Z"
+   "n": "Leaving the City",
+   "a": "Tsuneo Imahori",
+   "al": "Cyberpunk: Edgerunners 2 (Original Series Score)",
+   "img": "https://i.scdn.co/image/ab67616d00001e02bf30f74ec81d94a24bc823b8",
+   "u": "https://open.spotify.com/track/0lHVPDGpCFUO6ecDDt2NJf",
+   "at": "2026-10-26T17:07:37.702Z"
   }
  }
 };
