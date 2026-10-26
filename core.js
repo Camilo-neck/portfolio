@@ -354,7 +354,7 @@ var CC = (function () {
     else if (k === "contact") { out("LinkedIn:", "", LINKS.linkedin); out("GitHub:", "", LINKS.github); }
     else if (k === "go") {
       var map = { capacidades: "capacidades", skills: "capacidades", proyectos: "proyectos", projects: "proyectos", publicaciones: "publicaciones", publications: "publicaciones", github: "github", trayectoria: "trayectoria", path: "trayectoria", contacto: "contacto", contact: "contacto", juegos: "juegos", games: "juegos", musica: "musica", music: "musica", inicio: "inicio", home: "inicio" }, tgt = map[parts[1]];
-      if (tgt) { out(es ? "Saltando a " + parts[1] + "..." : "Jumping to " + parts[1] + "...", "sys"); document.getElementById(tgt).scrollIntoView({ behavior: reduce ? "auto" : "smooth" }); }
+      if (tgt && !document.getElementById(tgt).hidden) { out(es ? "Saltando a " + parts[1] + "..." : "Jumping to " + parts[1] + "...", "sys"); document.getElementById(tgt).scrollIntoView({ behavior: reduce ? "auto" : "smooth" }); }
       else out(es ? "Uso: ir capacidades | proyectos | github | trayectoria | contacto" : "Usage: go skills | projects | github | path | contact");
     }
     else if (k === "lang") { toggleLang(); out(es ? "Language: English." : "Idioma: español.", "sys"); }
@@ -392,7 +392,9 @@ var CC = (function () {
   $("#langBtn").addEventListener("click", toggleLang);
 
   /* ---------- Navegación ---------- */
-  $("#musica").hidden = !LIVE.sp;
+  // Banda sonora oculta por ahora (decisión de Camilo); para mostrarla: SHOW_MUSIC = true. Igual necesita LIVE.sp
+  var SHOW_MUSIC = false;
+  $("#musica").hidden = !SHOW_MUSIC || !LIVE.sp;
   var tabs = $$("#tabs .tab"), order = ["inicio", "capacidades", "proyectos", "publicaciones", "github", "acceso", "trayectoria", "juegos", "musica", "contacto"].filter(function (id) { return !document.getElementById(id).hidden; }), cur = "inicio";
   var inBand = {};
   var spy = new IntersectionObserver(function (es) {
