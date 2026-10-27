@@ -1,9 +1,9 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-10-26T17:08:52.568Z",
+ "at": "2026-10-27T16:13:57.317Z",
  "gh": {
   "repos": 41,
-  "followers": 63,
+  "followers": 62,
   "following": 58,
   "bio": "FullStack Developer",
   "org": "BetterCampus",
@@ -63,11 +63,18 @@ var LIVE = {
     "u": "https://open.spotify.com/track/23XDZWXMOiRrm0qoKXCPbf"
    },
    {
-    "n": "GENTE ARMADA",
-    "a": "Topboy TGR",
-    "al": "+ BULLSHIT",
-    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/0UNelLaxWLkhOAThgbEbkY"
+    "n": "Mas Bonito",
+    "a": "Chucky73, El Americano 4KT, Topboy TGR",
+    "al": "Mas Bonito",
+    "img": "https://i.scdn.co/image/ab67616d00001e02d51daf2330c075c8c17184a6",
+    "u": "https://open.spotify.com/track/2aoHBiCCpsO54BPFmd2drO"
+   },
+   {
+    "n": "DRIPPIN",
+    "a": "Topboy TGR, Wallance, Tony Monta, Leroy La L, Fharid On the Beat",
+    "al": "DRIPPIN",
+    "img": "https://i.scdn.co/image/ab67616d00001e022e511b28059e72f3c2a2e919",
+    "u": "https://open.spotify.com/track/7tVmbuyvPDmeoZ2wuHDLc3"
    },
    {
     "n": "DIAMANTES DE SANGRE",
@@ -77,18 +84,11 @@ var LIVE = {
     "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
    },
    {
-    "n": "NOMBRE DE DIOS",
-    "a": "Topboy TGR, El Americano 4KT",
+    "n": "GENTE ARMADA",
+    "a": "Topboy TGR",
     "al": "+ BULLSHIT",
     "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/60gfZxCUdJdcQgf2TJUDjP"
-   },
-   {
-    "n": "Mas Bonito",
-    "a": "Chucky73, El Americano 4KT, Topboy TGR",
-    "al": "Mas Bonito",
-    "img": "https://i.scdn.co/image/ab67616d00001e02d51daf2330c075c8c17184a6",
-    "u": "https://open.spotify.com/track/2aoHBiCCpsO54BPFmd2drO"
+    "u": "https://open.spotify.com/track/0UNelLaxWLkhOAThgbEbkY"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Leaving the City",
-   "a": "Tsuneo Imahori",
-   "al": "Cyberpunk: Edgerunners 2 (Original Series Score)",
-   "img": "https://i.scdn.co/image/ab67616d00001e02bf30f74ec81d94a24bc823b8",
-   "u": "https://open.spotify.com/track/0lHVPDGpCFUO6ecDDt2NJf",
-   "at": "2026-10-26T17:07:37.702Z"
+   "n": "Latemotiv",
+   "a": "stivijoes",
+   "al": "Latemotiv",
+   "img": "https://i.scdn.co/image/ab6742d3000052b7eb33eb51d0b130eed3ec005a",
+   "u": "https://open.spotify.com/track/1zNpOeMNXWlqeDRun6sSbY",
+   "at": "2026-10-27T14:58:44.800Z"
   }
  }
 };
