@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-10-27T16:13:57.317Z",
+ "at": "2026-10-28T17:00:37.874Z",
  "gh": {
   "repos": 41,
   "followers": 62,
@@ -98,14 +98,14 @@ var LIVE = {
     "u": "https://open.spotify.com/artist/1HYdJRbyNCkiko7TAw9rei"
    },
    {
-    "n": "Laufey",
-    "img": "https://i.scdn.co/image/ab6761610000f178c751deb23ed62e7cadfb669a",
-    "u": "https://open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO"
-   },
-   {
     "n": "Michael Jackson",
     "img": "https://i.scdn.co/image/ab6761610000f178997cc9a4aec335d46c9481fd",
     "u": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+   },
+   {
+    "n": "Laufey",
+    "img": "https://i.scdn.co/image/ab6761610000f178c751deb23ed62e7cadfb669a",
+    "u": "https://open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO"
    },
    {
     "n": "Romeo Santos",
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Latemotiv",
-   "a": "stivijoes",
-   "al": "Latemotiv",
-   "img": "https://i.scdn.co/image/ab6742d3000052b7eb33eb51d0b130eed3ec005a",
-   "u": "https://open.spotify.com/track/1zNpOeMNXWlqeDRun6sSbY",
-   "at": "2026-10-27T14:58:44.800Z"
+   "n": "Out of Bounds",
+   "a": "Tsuneo Imahori",
+   "al": "Cyberpunk: Edgerunners 2 (Original Series Score)",
+   "img": "https://i.scdn.co/image/ab67616d00001e02bf30f74ec81d94a24bc823b8",
+   "u": "https://open.spotify.com/track/4ypL8lKeVlFe3ZJMLcYHzK",
+   "at": "2026-10-28T08:31:25.438Z"
   }
  }
 };
