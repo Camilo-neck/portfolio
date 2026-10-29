@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-10-28T17:00:37.874Z",
+ "at": "2026-10-29T17:19:54.084Z",
  "gh": {
   "repos": 41,
   "followers": 62,
@@ -63,6 +63,13 @@ var LIVE = {
     "u": "https://open.spotify.com/track/23XDZWXMOiRrm0qoKXCPbf"
    },
    {
+    "n": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
+    "a": "Kalman Chodakiewitz, Eli Shiffman, Petite Meller",
+    "al": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
+    "img": "https://i.scdn.co/image/ab67616d00001e0254684ebe2a0f2bf6b1023c34",
+    "u": "https://open.spotify.com/track/5uKBhXUSYkwdoV4M6vfn8l"
+   },
+   {
     "n": "Mas Bonito",
     "a": "Chucky73, El Americano 4KT, Topboy TGR",
     "al": "Mas Bonito",
@@ -70,11 +77,11 @@ var LIVE = {
     "u": "https://open.spotify.com/track/2aoHBiCCpsO54BPFmd2drO"
    },
    {
-    "n": "DRIPPIN",
-    "a": "Topboy TGR, Wallance, Tony Monta, Leroy La L, Fharid On the Beat",
-    "al": "DRIPPIN",
-    "img": "https://i.scdn.co/image/ab67616d00001e022e511b28059e72f3c2a2e919",
-    "u": "https://open.spotify.com/track/7tVmbuyvPDmeoZ2wuHDLc3"
+    "n": "PREM PREM",
+    "a": "Topboy TGR, Fharid On the Beat",
+    "al": "PREM PREM",
+    "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
+    "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
    },
    {
     "n": "DIAMANTES DE SANGRE",
@@ -82,13 +89,6 @@ var LIVE = {
     "al": "+ BULLSHIT",
     "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
     "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
-   },
-   {
-    "n": "GENTE ARMADA",
-    "a": "Topboy TGR",
-    "al": "+ BULLSHIT",
-    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/0UNelLaxWLkhOAThgbEbkY"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Out of Bounds",
-   "a": "Tsuneo Imahori",
-   "al": "Cyberpunk: Edgerunners 2 (Original Series Score)",
-   "img": "https://i.scdn.co/image/ab67616d00001e02bf30f74ec81d94a24bc823b8",
-   "u": "https://open.spotify.com/track/4ypL8lKeVlFe3ZJMLcYHzK",
-   "at": "2026-10-28T08:31:25.438Z"
+   "n": "PREM PREM",
+   "a": "Topboy TGR, Fharid On the Beat",
+   "al": "PREM PREM",
+   "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
+   "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip",
+   "at": "2026-10-29T17:19:44.312Z"
   }
  }
 };
