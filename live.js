@@ -1,8 +1,8 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-10-29T17:19:54.084Z",
+ "at": "2026-10-30T16:57:12.542Z",
  "gh": {
-  "repos": 41,
+  "repos": 42,
   "followers": 62,
   "following": 58,
   "bio": "FullStack Developer",
@@ -56,18 +56,18 @@ var LIVE = {
  "sp": {
   "tracks": [
    {
-    "n": "Peli De Terror",
-    "a": "Køddy G, THE FAVORITES, Fharid On the Beat",
-    "al": "Peli De Terror",
-    "img": "https://i.scdn.co/image/ab67616d00001e0269486e4f8b0192aadba8c847",
-    "u": "https://open.spotify.com/track/23XDZWXMOiRrm0qoKXCPbf"
-   },
-   {
     "n": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
     "a": "Kalman Chodakiewitz, Eli Shiffman, Petite Meller",
     "al": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
     "img": "https://i.scdn.co/image/ab67616d00001e0254684ebe2a0f2bf6b1023c34",
     "u": "https://open.spotify.com/track/5uKBhXUSYkwdoV4M6vfn8l"
+   },
+   {
+    "n": "Peli De Terror",
+    "a": "Køddy G, THE FAVORITES, Fharid On the Beat",
+    "al": "Peli De Terror",
+    "img": "https://i.scdn.co/image/ab67616d00001e0269486e4f8b0192aadba8c847",
+    "u": "https://open.spotify.com/track/23XDZWXMOiRrm0qoKXCPbf"
    },
    {
     "n": "Mas Bonito",
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "PREM PREM",
-   "a": "Topboy TGR, Fharid On the Beat",
-   "al": "PREM PREM",
-   "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
-   "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip",
-   "at": "2026-10-29T17:19:44.312Z"
+   "n": "In Love With Myself",
+   "a": "Petite Meller, Kalman Chodakiewitz, Eli Shiffman",
+   "al": "Cyberpunk: Edgerunners 2 (Original Series Soundtrack)",
+   "img": "https://i.scdn.co/image/ab67616d00001e023cf1aa2d992aa735cf8cc295",
+   "u": "https://open.spotify.com/track/2iyaHQlYrR8Eyr4wOmOT5D",
+   "at": "2026-10-30T14:17:00.156Z"
   }
  }
 };
