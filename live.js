@@ -1,9 +1,9 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-10-30T16:57:12.542Z",
+ "at": "2026-10-31T15:57:30.181Z",
  "gh": {
   "repos": 42,
-  "followers": 62,
+  "followers": 61,
   "following": 58,
   "bio": "FullStack Developer",
   "org": "BetterCampus",
@@ -57,7 +57,7 @@ var LIVE = {
   "tracks": [
    {
     "n": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
-    "a": "Kalman Chodakiewitz, Eli Shiffman, Petite Meller",
+    "a": "Petite Meller, Kalman Chodakiewitz, Eli Shiffman",
     "al": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
     "img": "https://i.scdn.co/image/ab67616d00001e0254684ebe2a0f2bf6b1023c34",
     "u": "https://open.spotify.com/track/5uKBhXUSYkwdoV4M6vfn8l"
@@ -77,18 +77,18 @@ var LIVE = {
     "u": "https://open.spotify.com/track/2aoHBiCCpsO54BPFmd2drO"
    },
    {
-    "n": "PREM PREM",
-    "a": "Topboy TGR, Fharid On the Beat",
-    "al": "PREM PREM",
-    "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
-    "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
-   },
-   {
     "n": "DIAMANTES DE SANGRE",
     "a": "Topboy TGR, Midnvght",
     "al": "+ BULLSHIT",
     "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
     "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
+   },
+   {
+    "n": "PREM PREM",
+    "a": "Topboy TGR, Fharid On the Beat",
+    "al": "PREM PREM",
+    "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
+    "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "In Love With Myself",
-   "a": "Petite Meller, Kalman Chodakiewitz, Eli Shiffman",
-   "al": "Cyberpunk: Edgerunners 2 (Original Series Soundtrack)",
-   "img": "https://i.scdn.co/image/ab67616d00001e023cf1aa2d992aa735cf8cc295",
-   "u": "https://open.spotify.com/track/2iyaHQlYrR8Eyr4wOmOT5D",
-   "at": "2026-10-30T14:17:00.156Z"
+   "n": "Me Liberé",
+   "a": "El Gran Combo De Puerto Rico",
+   "al": "Nuevo Milenio - El Mismo Sabor",
+   "img": "https://i.scdn.co/image/ab67616d00001e02398956494995833d37e65998",
+   "u": "https://open.spotify.com/track/1IcnHHfeAkdc88LybFWwb9",
+   "at": "2026-10-31T04:14:03.847Z"
   }
  }
 };
