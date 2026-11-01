@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-10-31T15:57:30.181Z",
+ "at": "2026-11-01T17:00:41.191Z",
  "gh": {
   "repos": 42,
   "followers": 61,
@@ -63,6 +63,20 @@ var LIVE = {
     "u": "https://open.spotify.com/track/5uKBhXUSYkwdoV4M6vfn8l"
    },
    {
+    "n": "DIAMANTES DE SANGRE",
+    "a": "Topboy TGR, Midnvght",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
+   },
+   {
+    "n": "GENTE ARMADA",
+    "a": "Topboy TGR",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/0UNelLaxWLkhOAThgbEbkY"
+   },
+   {
     "n": "Peli De Terror",
     "a": "Køddy G, THE FAVORITES, Fharid On the Beat",
     "al": "Peli De Terror",
@@ -75,20 +89,6 @@ var LIVE = {
     "al": "Mas Bonito",
     "img": "https://i.scdn.co/image/ab67616d00001e02d51daf2330c075c8c17184a6",
     "u": "https://open.spotify.com/track/2aoHBiCCpsO54BPFmd2drO"
-   },
-   {
-    "n": "DIAMANTES DE SANGRE",
-    "a": "Topboy TGR, Midnvght",
-    "al": "+ BULLSHIT",
-    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
-   },
-   {
-    "n": "PREM PREM",
-    "a": "Topboy TGR, Fharid On the Beat",
-    "al": "PREM PREM",
-    "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
-    "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Me Liberé",
-   "a": "El Gran Combo De Puerto Rico",
-   "al": "Nuevo Milenio - El Mismo Sabor",
-   "img": "https://i.scdn.co/image/ab67616d00001e02398956494995833d37e65998",
-   "u": "https://open.spotify.com/track/1IcnHHfeAkdc88LybFWwb9",
-   "at": "2026-10-31T04:14:03.847Z"
+   "n": "Tulipanes - Noches de Salón",
+   "a": "Enjambre",
+   "al": "Noches De Salón",
+   "img": "https://i.scdn.co/image/ab67616d00001e02e3d809b9270c1b26728d4e53",
+   "u": "https://open.spotify.com/track/25oGDA04rAkUl9PtWL2d4r",
+   "at": "2026-11-01T15:33:18.220Z"
   }
  }
 };
