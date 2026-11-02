@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-01T17:00:41.191Z",
+ "at": "2026-11-02T20:38:48.836Z",
  "gh": {
   "repos": 42,
   "followers": 61,
@@ -77,18 +77,18 @@ var LIVE = {
     "u": "https://open.spotify.com/track/0UNelLaxWLkhOAThgbEbkY"
    },
    {
-    "n": "Peli De Terror",
-    "a": "Køddy G, THE FAVORITES, Fharid On the Beat",
-    "al": "Peli De Terror",
-    "img": "https://i.scdn.co/image/ab67616d00001e0269486e4f8b0192aadba8c847",
-    "u": "https://open.spotify.com/track/23XDZWXMOiRrm0qoKXCPbf"
-   },
-   {
     "n": "Mas Bonito",
     "a": "Chucky73, El Americano 4KT, Topboy TGR",
     "al": "Mas Bonito",
     "img": "https://i.scdn.co/image/ab67616d00001e02d51daf2330c075c8c17184a6",
     "u": "https://open.spotify.com/track/2aoHBiCCpsO54BPFmd2drO"
+   },
+   {
+    "n": "UNA CHOLA",
+    "a": "Topboy TGR",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/5QbsaqT4quDV5d0p8Gmhii"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Tulipanes - Noches de Salón",
-   "a": "Enjambre",
-   "al": "Noches De Salón",
-   "img": "https://i.scdn.co/image/ab67616d00001e02e3d809b9270c1b26728d4e53",
-   "u": "https://open.spotify.com/track/25oGDA04rAkUl9PtWL2d4r",
-   "at": "2026-11-01T15:33:18.220Z"
+   "n": "Tú Me Vuelves Loco",
+   "a": "Frankie Ruiz",
+   "al": "Tú Me Vuelves Loco (Baile Total)",
+   "img": "https://i.scdn.co/image/ab67616d00001e02f9da53acb455eecfe98c7f4b",
+   "u": "https://open.spotify.com/track/750jYwcwsfdyv7uDTUjnkl",
+   "at": "2026-11-02T17:32:49.723Z"
   }
  }
 };
