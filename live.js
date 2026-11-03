@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-02T20:38:48.836Z",
+ "at": "2026-11-03T18:15:28.909Z",
  "gh": {
   "repos": 42,
   "followers": 61,
@@ -98,14 +98,14 @@ var LIVE = {
     "u": "https://open.spotify.com/artist/1HYdJRbyNCkiko7TAw9rei"
    },
    {
-    "n": "Michael Jackson",
-    "img": "https://i.scdn.co/image/ab6761610000f178997cc9a4aec335d46c9481fd",
-    "u": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
-   },
-   {
     "n": "Laufey",
     "img": "https://i.scdn.co/image/ab6761610000f178c751deb23ed62e7cadfb669a",
     "u": "https://open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO"
+   },
+   {
+    "n": "Michael Jackson",
+    "img": "https://i.scdn.co/image/ab6761610000f178997cc9a4aec335d46c9481fd",
+    "u": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
    },
    {
     "n": "Romeo Santos",
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Tú Me Vuelves Loco",
-   "a": "Frankie Ruiz",
-   "al": "Tú Me Vuelves Loco (Baile Total)",
-   "img": "https://i.scdn.co/image/ab67616d00001e02f9da53acb455eecfe98c7f4b",
-   "u": "https://open.spotify.com/track/750jYwcwsfdyv7uDTUjnkl",
-   "at": "2026-11-02T17:32:49.723Z"
+   "n": "Oye Mi Canto",
+   "a": "N.O.R.E., Daddy Yankee, Nina Sky, Gemstar, Big Mato",
+   "al": "N.O.R.E. Y La Familia",
+   "img": "https://i.scdn.co/image/ab67616d00001e02b961172ecb9063a778dea528",
+   "u": "https://open.spotify.com/track/3J6vrRMz6EfwH2sgYiyNhc",
+   "at": "2026-11-03T16:54:47.701Z"
   }
  }
 };
