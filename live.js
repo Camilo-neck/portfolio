@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-03T18:15:28.909Z",
+ "at": "2026-11-04T18:29:35.038Z",
  "gh": {
   "repos": 42,
   "followers": 61,
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Oye Mi Canto",
-   "a": "N.O.R.E., Daddy Yankee, Nina Sky, Gemstar, Big Mato",
-   "al": "N.O.R.E. Y La Familia",
-   "img": "https://i.scdn.co/image/ab67616d00001e02b961172ecb9063a778dea528",
-   "u": "https://open.spotify.com/track/3J6vrRMz6EfwH2sgYiyNhc",
-   "at": "2026-11-03T16:54:47.701Z"
+   "n": "Body - Remix",
+   "a": "Eladio Carrion, Rauw Alejandro, De La Rose",
+   "al": "Body (Remix)",
+   "img": "https://i.scdn.co/image/ab67616d00001e0235c5eb9d5a41e0088b7e500d",
+   "u": "https://open.spotify.com/track/0jELnO3Z7O05HMMCUF9GBK",
+   "at": "2026-11-04T18:17:03.437Z"
   }
  }
 };
