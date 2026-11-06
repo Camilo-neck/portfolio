@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-05T18:33:33.586Z",
+ "at": "2026-11-06T17:49:43.377Z",
  "gh": {
   "repos": 42,
   "followers": 61,
@@ -70,13 +70,6 @@ var LIVE = {
     "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
    },
    {
-    "n": "PREM PREM",
-    "a": "Topboy TGR, Fharid On the Beat",
-    "al": "PREM PREM",
-    "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
-    "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
-   },
-   {
     "n": "GENTE ARMADA",
     "a": "Topboy TGR",
     "al": "+ BULLSHIT",
@@ -84,11 +77,18 @@ var LIVE = {
     "u": "https://open.spotify.com/track/0UNelLaxWLkhOAThgbEbkY"
    },
    {
-    "n": "Mas Bonito",
-    "a": "Chucky73, El Americano 4KT, Topboy TGR",
-    "al": "Mas Bonito",
-    "img": "https://i.scdn.co/image/ab67616d00001e02d51daf2330c075c8c17184a6",
-    "u": "https://open.spotify.com/track/2aoHBiCCpsO54BPFmd2drO"
+    "n": "PREM PREM",
+    "a": "Topboy TGR, Fharid On the Beat",
+    "al": "PREM PREM",
+    "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
+    "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
+   },
+   {
+    "n": "DRIPPIN",
+    "a": "Topboy TGR, Wallance, Tony Monta, Leroy La L, Fharid On the Beat",
+    "al": "DRIPPIN",
+    "img": "https://i.scdn.co/image/ab67616d00001e022e511b28059e72f3c2a2e919",
+    "u": "https://open.spotify.com/track/7tVmbuyvPDmeoZ2wuHDLc3"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Street by Street",
-   "a": "Laufey",
-   "al": "Street by Street",
-   "img": "https://i.scdn.co/image/ab67616d00001e02d25f8e7788dd5bc8a0f5da42",
-   "u": "https://open.spotify.com/track/0OuOPYd05eORfLw94apb8j",
-   "at": "2026-11-05T18:27:07.108Z"
+   "n": "Ahora Quien - Salsa Version",
+   "a": "Marc Anthony",
+   "al": "Valio La Pena",
+   "img": "https://i.scdn.co/image/ab67616d00001e02ac1b009b3ad89a504b927acf",
+   "u": "https://open.spotify.com/track/5A32KQZznC2HSqr9qzTl2N",
+   "at": "2026-11-06T17:42:17.888Z"
   }
  }
 };
