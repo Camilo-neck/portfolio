@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-06T17:49:43.377Z",
+ "at": "2026-11-07T16:45:23.983Z",
  "gh": {
   "repos": 42,
   "followers": 61,
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Ahora Quien - Salsa Version",
-   "a": "Marc Anthony",
-   "al": "Valio La Pena",
-   "img": "https://i.scdn.co/image/ab67616d00001e02ac1b009b3ad89a504b927acf",
-   "u": "https://open.spotify.com/track/5A32KQZznC2HSqr9qzTl2N",
-   "at": "2026-11-06T17:42:17.888Z"
+   "n": "ME JALO",
+   "a": "Fuerza Regida, Grupo Frontera",
+   "al": "MALA MÍA",
+   "img": "https://i.scdn.co/image/ab67616d00001e0204874856f3c501181d060128",
+   "u": "https://open.spotify.com/track/3D24ErT1MMmUfXWotSj2A2",
+   "at": "2026-11-07T15:20:56.795Z"
   }
  }
 };
