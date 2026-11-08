@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-07T16:45:23.983Z",
+ "at": "2026-11-08T16:55:50.796Z",
  "gh": {
   "repos": 42,
   "followers": 61,
@@ -70,18 +70,18 @@ var LIVE = {
     "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
    },
    {
-    "n": "GENTE ARMADA",
-    "a": "Topboy TGR",
-    "al": "+ BULLSHIT",
-    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/0UNelLaxWLkhOAThgbEbkY"
-   },
-   {
     "n": "PREM PREM",
     "a": "Topboy TGR, Fharid On the Beat",
     "al": "PREM PREM",
     "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
     "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
+   },
+   {
+    "n": "GENTE ARMADA",
+    "a": "Topboy TGR",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/0UNelLaxWLkhOAThgbEbkY"
    },
    {
     "n": "DRIPPIN",
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "ME JALO",
-   "a": "Fuerza Regida, Grupo Frontera",
-   "al": "MALA MÍA",
-   "img": "https://i.scdn.co/image/ab67616d00001e0204874856f3c501181d060128",
-   "u": "https://open.spotify.com/track/3D24ErT1MMmUfXWotSj2A2",
-   "at": "2026-11-07T15:20:56.795Z"
+   "n": "RAININ'",
+   "a": "Topboy TGR, Fharid On the Beat",
+   "al": "PRESIDENT MIXTAPE",
+   "img": "https://i.scdn.co/image/ab67616d00001e02804c3b995b603e14e273ab29",
+   "u": "https://open.spotify.com/track/1ZBCOknbQAcEPZTg3SY6Cz",
+   "at": "2026-11-08T16:22:07.078Z"
   }
  }
 };
