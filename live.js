@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-08T16:55:50.796Z",
+ "at": "2026-11-09T21:19:04.140Z",
  "gh": {
   "repos": 42,
   "followers": 61,
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "RAININ'",
-   "a": "Topboy TGR, Fharid On the Beat",
-   "al": "PRESIDENT MIXTAPE",
-   "img": "https://i.scdn.co/image/ab67616d00001e02804c3b995b603e14e273ab29",
-   "u": "https://open.spotify.com/track/1ZBCOknbQAcEPZTg3SY6Cz",
-   "at": "2026-11-08T16:22:07.078Z"
+   "n": "Estilo de Vida",
+   "a": "Yeruza",
+   "al": "CODA",
+   "img": "https://i.scdn.co/image/ab67616d00001e022e32783f693ca5f2128c5f0e",
+   "u": "https://open.spotify.com/track/1muTEUeGKeiS6PlVHFBIWq",
+   "at": "2026-11-09T20:06:23.093Z"
   }
  }
 };
