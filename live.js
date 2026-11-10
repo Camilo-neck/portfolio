@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-09T21:19:04.140Z",
+ "at": "2026-11-10T18:29:30.074Z",
  "gh": {
   "repos": 42,
   "followers": 61,
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Estilo de Vida",
-   "a": "Yeruza",
-   "al": "CODA",
-   "img": "https://i.scdn.co/image/ab67616d00001e022e32783f693ca5f2128c5f0e",
-   "u": "https://open.spotify.com/track/1muTEUeGKeiS6PlVHFBIWq",
-   "at": "2026-11-09T20:06:23.093Z"
+   "n": "Oye Mi Amor",
+   "a": "Maná",
+   "al": "¿Dónde Jugarán Los Niños?",
+   "img": "https://i.scdn.co/image/ab67616d00001e0263f3b7f5abf86ad483b57b77",
+   "u": "https://open.spotify.com/track/5EJ2THuhAapEIeQOtXUQ0x",
+   "at": "2026-11-10T15:30:04.791Z"
   }
  }
 };
