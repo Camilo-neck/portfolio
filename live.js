@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-10T18:29:30.074Z",
+ "at": "2026-11-11T18:25:15.622Z",
  "gh": {
   "repos": 42,
   "followers": 61,
@@ -103,14 +103,14 @@ var LIVE = {
     "u": "https://open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO"
    },
    {
-    "n": "Michael Jackson",
-    "img": "https://i.scdn.co/image/ab6761610000f178997cc9a4aec335d46c9481fd",
-    "u": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
-   },
-   {
     "n": "Romeo Santos",
     "img": "https://i.scdn.co/image/ab6761610000f178c8be3c6e5a824360d1bffc03",
     "u": "https://open.spotify.com/artist/5lwmRuXgjX8xIwlnauTZIP"
+   },
+   {
+    "n": "Michael Jackson",
+    "img": "https://i.scdn.co/image/ab6761610000f178997cc9a4aec335d46c9481fd",
+    "u": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
    },
    {
     "n": "TRAP SZN",
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Oye Mi Amor",
-   "a": "Maná",
-   "al": "¿Dónde Jugarán Los Niños?",
-   "img": "https://i.scdn.co/image/ab67616d00001e0263f3b7f5abf86ad483b57b77",
-   "u": "https://open.spotify.com/track/5EJ2THuhAapEIeQOtXUQ0x",
-   "at": "2026-11-10T15:30:04.791Z"
+   "n": "Leave",
+   "a": "Post Malone",
+   "al": "Stoney (Complete Edition)",
+   "img": "https://i.scdn.co/image/ab67616d00001e024c65275edad3ab7ddb4ed230",
+   "u": "https://open.spotify.com/track/7H8ZiBuUPuN1I0zlWobua1",
+   "at": "2026-11-11T17:30:52.384Z"
   }
  }
 };
