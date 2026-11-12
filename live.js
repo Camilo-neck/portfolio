@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-11T18:25:15.622Z",
+ "at": "2026-11-12T18:43:41.339Z",
  "gh": {
   "repos": 42,
   "followers": 61,
@@ -70,11 +70,11 @@ var LIVE = {
     "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
    },
    {
-    "n": "PREM PREM",
-    "a": "Topboy TGR, Fharid On the Beat",
-    "al": "PREM PREM",
-    "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
-    "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
+    "n": "UNA CHOLA",
+    "a": "Topboy TGR",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/5QbsaqT4quDV5d0p8Gmhii"
    },
    {
     "n": "GENTE ARMADA",
@@ -84,11 +84,11 @@ var LIVE = {
     "u": "https://open.spotify.com/track/0UNelLaxWLkhOAThgbEbkY"
    },
    {
-    "n": "DRIPPIN",
-    "a": "Topboy TGR, Wallance, Tony Monta, Leroy La L, Fharid On the Beat",
-    "al": "DRIPPIN",
-    "img": "https://i.scdn.co/image/ab67616d00001e022e511b28059e72f3c2a2e919",
-    "u": "https://open.spotify.com/track/7tVmbuyvPDmeoZ2wuHDLc3"
+    "n": "PREM PREM",
+    "a": "Topboy TGR, Fharid On the Beat",
+    "al": "PREM PREM",
+    "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
+    "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
    }
   ],
   "artists": [
@@ -103,11 +103,6 @@ var LIVE = {
     "u": "https://open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO"
    },
    {
-    "n": "Romeo Santos",
-    "img": "https://i.scdn.co/image/ab6761610000f178c8be3c6e5a824360d1bffc03",
-    "u": "https://open.spotify.com/artist/5lwmRuXgjX8xIwlnauTZIP"
-   },
-   {
     "n": "Michael Jackson",
     "img": "https://i.scdn.co/image/ab6761610000f178997cc9a4aec335d46c9481fd",
     "u": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
@@ -116,15 +111,20 @@ var LIVE = {
     "n": "TRAP SZN",
     "img": "https://i.scdn.co/image/ab6761610000f178b51c47a018c88188e9523dab",
     "u": "https://open.spotify.com/artist/5iWAnyg98DLHQqNf4ExyP2"
+   },
+   {
+    "n": "Romeo Santos",
+    "img": "https://i.scdn.co/image/ab6761610000f178c8be3c6e5a824360d1bffc03",
+    "u": "https://open.spotify.com/artist/5lwmRuXgjX8xIwlnauTZIP"
    }
   ],
   "last": {
-   "n": "Leave",
-   "a": "Post Malone",
-   "al": "Stoney (Complete Edition)",
-   "img": "https://i.scdn.co/image/ab67616d00001e024c65275edad3ab7ddb4ed230",
-   "u": "https://open.spotify.com/track/7H8ZiBuUPuN1I0zlWobua1",
-   "at": "2026-11-11T17:30:52.384Z"
+   "n": "Flores",
+   "a": "LATIN MAFIA",
+   "al": "Flores",
+   "img": "https://i.scdn.co/image/ab67616d00001e0283b56220919a4023ab399c6e",
+   "u": "https://open.spotify.com/track/1dyA1Re4QEQQWGDDT7h9TK",
+   "at": "2026-11-12T18:40:51.458Z"
   }
  }
 };
