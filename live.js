@@ -1,9 +1,9 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-12T18:43:41.339Z",
+ "at": "2026-11-13T18:25:25.708Z",
  "gh": {
   "repos": 42,
-  "followers": 61,
+  "followers": 62,
   "following": 58,
   "bio": "FullStack Developer",
   "org": "BetterCampus",
@@ -63,13 +63,6 @@ var LIVE = {
     "u": "https://open.spotify.com/track/5uKBhXUSYkwdoV4M6vfn8l"
    },
    {
-    "n": "DIAMANTES DE SANGRE",
-    "a": "Topboy TGR, Midnvght",
-    "al": "+ BULLSHIT",
-    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
-   },
-   {
     "n": "UNA CHOLA",
     "a": "Topboy TGR",
     "al": "+ BULLSHIT",
@@ -77,11 +70,11 @@ var LIVE = {
     "u": "https://open.spotify.com/track/5QbsaqT4quDV5d0p8Gmhii"
    },
    {
-    "n": "GENTE ARMADA",
-    "a": "Topboy TGR",
+    "n": "DIAMANTES DE SANGRE",
+    "a": "Topboy TGR, Midnvght",
     "al": "+ BULLSHIT",
     "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/0UNelLaxWLkhOAThgbEbkY"
+    "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
    },
    {
     "n": "PREM PREM",
@@ -89,6 +82,13 @@ var LIVE = {
     "al": "PREM PREM",
     "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
     "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
+   },
+   {
+    "n": "ROBERTO CARLOS",
+    "a": "Topboy TGR",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/7tdfr4nakMVLspfZOvJA7L"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Flores",
-   "a": "LATIN MAFIA",
-   "al": "Flores",
-   "img": "https://i.scdn.co/image/ab67616d00001e0283b56220919a4023ab399c6e",
-   "u": "https://open.spotify.com/track/1dyA1Re4QEQQWGDDT7h9TK",
-   "at": "2026-11-12T18:40:51.458Z"
+   "n": "Dile al Amor",
+   "a": "Aventura",
+   "al": "The Last",
+   "img": "https://i.scdn.co/image/ab67616d00001e02791d6daf3d05cde2a646c3cd",
+   "u": "https://open.spotify.com/track/2Bhmj4XK33InfhqKPxcJ1v",
+   "at": "2026-11-13T12:45:24.025Z"
   }
  }
 };
