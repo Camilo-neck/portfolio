@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-13T18:25:25.708Z",
+ "at": "2026-11-14T16:51:40.183Z",
  "gh": {
   "repos": 42,
   "followers": 62,
@@ -70,13 +70,6 @@ var LIVE = {
     "u": "https://open.spotify.com/track/5QbsaqT4quDV5d0p8Gmhii"
    },
    {
-    "n": "DIAMANTES DE SANGRE",
-    "a": "Topboy TGR, Midnvght",
-    "al": "+ BULLSHIT",
-    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
-   },
-   {
     "n": "PREM PREM",
     "a": "Topboy TGR, Fharid On the Beat",
     "al": "PREM PREM",
@@ -89,6 +82,13 @@ var LIVE = {
     "al": "+ BULLSHIT",
     "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
     "u": "https://open.spotify.com/track/7tdfr4nakMVLspfZOvJA7L"
+   },
+   {
+    "n": "Mas Bonito",
+    "a": "Chucky73, El Americano 4KT, Topboy TGR",
+    "al": "Mas Bonito",
+    "img": "https://i.scdn.co/image/ab67616d00001e02d51daf2330c075c8c17184a6",
+    "u": "https://open.spotify.com/track/2aoHBiCCpsO54BPFmd2drO"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Dile al Amor",
-   "a": "Aventura",
-   "al": "The Last",
-   "img": "https://i.scdn.co/image/ab67616d00001e02791d6daf3d05cde2a646c3cd",
-   "u": "https://open.spotify.com/track/2Bhmj4XK33InfhqKPxcJ1v",
-   "at": "2026-11-13T12:45:24.025Z"
+   "n": "Is There Someone Else?",
+   "a": "The Weeknd",
+   "al": "Dawn FM",
+   "img": "https://i.scdn.co/image/ab67616d00001e024ab2520c2c77a1d66b9ee21d",
+   "u": "https://open.spotify.com/track/0mL82sxCRjrs3br407IdJh",
+   "at": "2026-11-14T16:45:24.996Z"
   }
  }
 };
