@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-14T16:51:40.183Z",
+ "at": "2026-11-15T17:35:18.893Z",
  "gh": {
   "repos": 42,
   "followers": 62,
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Is There Someone Else?",
-   "a": "The Weeknd",
-   "al": "Dawn FM",
-   "img": "https://i.scdn.co/image/ab67616d00001e024ab2520c2c77a1d66b9ee21d",
-   "u": "https://open.spotify.com/track/0mL82sxCRjrs3br407IdJh",
-   "at": "2026-11-14T16:45:24.996Z"
+   "n": "the boy is mine",
+   "a": "Ariana Grande",
+   "al": "eternal sunshine",
+   "img": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
+   "u": "https://open.spotify.com/track/0Lmbke3KNVFXtoH2mMSHCw",
+   "at": "2026-11-15T07:32:22.885Z"
   }
  }
 };
