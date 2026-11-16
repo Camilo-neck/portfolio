@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-15T17:35:18.893Z",
+ "at": "2026-11-16T20:49:24.855Z",
  "gh": {
   "repos": 42,
   "followers": 62,
@@ -77,18 +77,18 @@ var LIVE = {
     "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
    },
    {
-    "n": "ROBERTO CARLOS",
-    "a": "Topboy TGR",
-    "al": "+ BULLSHIT",
-    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/7tdfr4nakMVLspfZOvJA7L"
+    "n": "Se Le Ve",
+    "a": "Kybba, Ryan Castro, Bad Gyal, Topboy TGR",
+    "al": "Se Le Ve",
+    "img": "https://i.scdn.co/image/ab67616d00001e0228f1339fc31bdba46751678d",
+    "u": "https://open.spotify.com/track/0ExNALbmBpY7IAZ2dzupnv"
    },
    {
-    "n": "Mas Bonito",
-    "a": "Chucky73, El Americano 4KT, Topboy TGR",
-    "al": "Mas Bonito",
-    "img": "https://i.scdn.co/image/ab67616d00001e02d51daf2330c075c8c17184a6",
-    "u": "https://open.spotify.com/track/2aoHBiCCpsO54BPFmd2drO"
+    "n": "GROSERÍAS",
+    "a": "Dímelo Flow, Justin Quiles, Topboy TGR",
+    "al": "GROSERÍAS",
+    "img": "https://i.scdn.co/image/ab67616d00001e02915e7b2c991767249fd37495",
+    "u": "https://open.spotify.com/track/28A6f2ofNfhcbqjP4HxumT"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "the boy is mine",
-   "a": "Ariana Grande",
-   "al": "eternal sunshine",
-   "img": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
-   "u": "https://open.spotify.com/track/0Lmbke3KNVFXtoH2mMSHCw",
-   "at": "2026-11-15T07:32:22.885Z"
+   "n": "SLOW DANCING IN THE DARK",
+   "a": "Joji",
+   "al": "BALLADS 1",
+   "img": "https://i.scdn.co/image/ab67616d00001e024cc52cd7a712842234e4fce2",
+   "u": "https://open.spotify.com/track/6rY5FAWxCdAGllYEOZMbjW",
+   "at": "2026-11-16T19:45:36.018Z"
   }
  }
 };
