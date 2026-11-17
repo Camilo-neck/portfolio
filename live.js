@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-16T20:49:24.855Z",
+ "at": "2026-11-17T19:39:13.906Z",
  "gh": {
   "repos": 42,
   "followers": 62,
@@ -70,13 +70,6 @@ var LIVE = {
     "u": "https://open.spotify.com/track/5QbsaqT4quDV5d0p8Gmhii"
    },
    {
-    "n": "PREM PREM",
-    "a": "Topboy TGR, Fharid On the Beat",
-    "al": "PREM PREM",
-    "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
-    "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
-   },
-   {
     "n": "Se Le Ve",
     "a": "Kybba, Ryan Castro, Bad Gyal, Topboy TGR",
     "al": "Se Le Ve",
@@ -84,11 +77,18 @@ var LIVE = {
     "u": "https://open.spotify.com/track/0ExNALbmBpY7IAZ2dzupnv"
    },
    {
-    "n": "GROSERÍAS",
-    "a": "Dímelo Flow, Justin Quiles, Topboy TGR",
-    "al": "GROSERÍAS",
-    "img": "https://i.scdn.co/image/ab67616d00001e02915e7b2c991767249fd37495",
-    "u": "https://open.spotify.com/track/28A6f2ofNfhcbqjP4HxumT"
+    "n": "PREM PREM",
+    "a": "Topboy TGR, Fharid On the Beat",
+    "al": "PREM PREM",
+    "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
+    "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
+   },
+   {
+    "n": "ROBERTO CARLOS",
+    "a": "Topboy TGR",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/7tdfr4nakMVLspfZOvJA7L"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "SLOW DANCING IN THE DARK",
-   "a": "Joji",
-   "al": "BALLADS 1",
-   "img": "https://i.scdn.co/image/ab67616d00001e024cc52cd7a712842234e4fce2",
-   "u": "https://open.spotify.com/track/6rY5FAWxCdAGllYEOZMbjW",
-   "at": "2026-11-16T19:45:36.018Z"
+   "n": "MOSCHINO",
+   "a": "Topboy TGR",
+   "al": "MOSCHINO",
+   "img": "https://i.scdn.co/image/ab67616d00001e02a6ccf82816a06a401aa2dd48",
+   "u": "https://open.spotify.com/track/7JiwvqCk2sI1dXkIrbgaTx",
+   "at": "2026-11-17T19:36:20.633Z"
   }
  }
 };
