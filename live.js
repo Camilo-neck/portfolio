@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-17T19:39:13.906Z",
+ "at": "2026-11-18T19:15:27.131Z",
  "gh": {
   "repos": 42,
   "followers": 62,
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "MOSCHINO",
-   "a": "Topboy TGR",
-   "al": "MOSCHINO",
-   "img": "https://i.scdn.co/image/ab67616d00001e02a6ccf82816a06a401aa2dd48",
-   "u": "https://open.spotify.com/track/7JiwvqCk2sI1dXkIrbgaTx",
-   "at": "2026-11-17T19:36:20.633Z"
+   "n": "STORM II",
+   "a": "GENER8ION, Yung Lean",
+   "al": "Love & Tears",
+   "img": "https://i.scdn.co/image/ab67616d00001e02025dc6c56e95fccbda35dd3f",
+   "u": "https://open.spotify.com/track/4ipD5CMmWkehabGlAGTOBB",
+   "at": "2026-11-18T18:32:45.915Z"
   }
  }
 };
