@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-18T19:15:27.131Z",
+ "at": "2026-11-19T19:22:48.098Z",
  "gh": {
   "repos": 42,
   "followers": 62,
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "STORM II",
-   "a": "GENER8ION, Yung Lean",
-   "al": "Love & Tears",
-   "img": "https://i.scdn.co/image/ab67616d00001e02025dc6c56e95fccbda35dd3f",
-   "u": "https://open.spotify.com/track/4ipD5CMmWkehabGlAGTOBB",
-   "at": "2026-11-18T18:32:45.915Z"
+   "n": "Welcome To My Crib",
+   "a": "Randy Nota Loca",
+   "al": "Los Benjamins - La Continuacion",
+   "img": "https://i.scdn.co/image/ab67616d00001e0227fba5ea01837498ce9ea292",
+   "u": "https://open.spotify.com/track/3taCy6SW79HbVJotZc03gB",
+   "at": "2026-11-19T16:04:09.033Z"
   }
  }
 };
