@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-19T19:22:48.098Z",
+ "at": "2026-11-20T18:58:57.755Z",
  "gh": {
   "repos": 42,
   "followers": 62,
@@ -77,18 +77,18 @@ var LIVE = {
     "u": "https://open.spotify.com/track/0ExNALbmBpY7IAZ2dzupnv"
    },
    {
-    "n": "PREM PREM",
-    "a": "Topboy TGR, Fharid On the Beat",
-    "al": "PREM PREM",
-    "img": "https://i.scdn.co/image/ab67616d00001e022aa9c61a2622aa2954bf4c31",
-    "u": "https://open.spotify.com/track/3YccNixly88EoIbbOLX2Ip"
-   },
-   {
     "n": "ROBERTO CARLOS",
     "a": "Topboy TGR",
     "al": "+ BULLSHIT",
     "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
     "u": "https://open.spotify.com/track/7tdfr4nakMVLspfZOvJA7L"
+   },
+   {
+    "n": "GROSERÍAS",
+    "a": "Dímelo Flow, Justin Quiles, Topboy TGR",
+    "al": "GROSERÍAS",
+    "img": "https://i.scdn.co/image/ab67616d00001e02915e7b2c991767249fd37495",
+    "u": "https://open.spotify.com/track/28A6f2ofNfhcbqjP4HxumT"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Welcome To My Crib",
-   "a": "Randy Nota Loca",
-   "al": "Los Benjamins - La Continuacion",
-   "img": "https://i.scdn.co/image/ab67616d00001e0227fba5ea01837498ce9ea292",
-   "u": "https://open.spotify.com/track/3taCy6SW79HbVJotZc03gB",
-   "at": "2026-11-19T16:04:09.033Z"
+   "n": "Un verano en Nueva York",
+   "a": "El Gran Combo De Puerto Rico",
+   "al": "Numero 7",
+   "img": "https://i.scdn.co/image/ab67616d00001e02587eb3621c69aad25d88acfb",
+   "u": "https://open.spotify.com/track/1q2J8KWeewoqOrZI4a65P9",
+   "at": "2026-11-20T18:15:56.357Z"
   }
  }
 };
