@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-20T18:58:57.755Z",
+ "at": "2026-11-21T17:53:32.572Z",
  "gh": {
   "repos": 42,
   "followers": 62,
@@ -77,18 +77,18 @@ var LIVE = {
     "u": "https://open.spotify.com/track/0ExNALbmBpY7IAZ2dzupnv"
    },
    {
-    "n": "ROBERTO CARLOS",
-    "a": "Topboy TGR",
-    "al": "+ BULLSHIT",
-    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/7tdfr4nakMVLspfZOvJA7L"
-   },
-   {
     "n": "GROSERÍAS",
     "a": "Dímelo Flow, Justin Quiles, Topboy TGR",
     "al": "GROSERÍAS",
     "img": "https://i.scdn.co/image/ab67616d00001e02915e7b2c991767249fd37495",
     "u": "https://open.spotify.com/track/28A6f2ofNfhcbqjP4HxumT"
+   },
+   {
+    "n": "Daikoku",
+    "a": "Eladio Carrion, Topboy TGR",
+    "al": "CORSA",
+    "img": "https://i.scdn.co/image/ab67616d00001e02e95de5752fa81a8611740679",
+    "u": "https://open.spotify.com/track/6g1c531586S5DzdWYraRzv"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Un verano en Nueva York",
-   "a": "El Gran Combo De Puerto Rico",
-   "al": "Numero 7",
-   "img": "https://i.scdn.co/image/ab67616d00001e02587eb3621c69aad25d88acfb",
-   "u": "https://open.spotify.com/track/1q2J8KWeewoqOrZI4a65P9",
-   "at": "2026-11-20T18:15:56.357Z"
+   "n": "Yo Quisiera Amarla",
+   "a": "Aventura",
+   "al": "The Last",
+   "img": "https://i.scdn.co/image/ab67616d00001e02791d6daf3d05cde2a646c3cd",
+   "u": "https://open.spotify.com/track/7Ln0OEpEiFDMwxHfEMP5aM",
+   "at": "2026-11-21T04:39:54.524Z"
   }
  }
 };
