@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-21T17:53:32.572Z",
+ "at": "2026-11-22T18:15:56.269Z",
  "gh": {
   "repos": 42,
   "followers": 62,
@@ -70,13 +70,6 @@ var LIVE = {
     "u": "https://open.spotify.com/track/5QbsaqT4quDV5d0p8Gmhii"
    },
    {
-    "n": "Se Le Ve",
-    "a": "Kybba, Ryan Castro, Bad Gyal, Topboy TGR",
-    "al": "Se Le Ve",
-    "img": "https://i.scdn.co/image/ab67616d00001e0228f1339fc31bdba46751678d",
-    "u": "https://open.spotify.com/track/0ExNALbmBpY7IAZ2dzupnv"
-   },
-   {
     "n": "GROSERÍAS",
     "a": "Dímelo Flow, Justin Quiles, Topboy TGR",
     "al": "GROSERÍAS",
@@ -89,6 +82,13 @@ var LIVE = {
     "al": "CORSA",
     "img": "https://i.scdn.co/image/ab67616d00001e02e95de5752fa81a8611740679",
     "u": "https://open.spotify.com/track/6g1c531586S5DzdWYraRzv"
+   },
+   {
+    "n": "KRILLIN",
+    "a": "Topboy TGR, Leroy La L, El Americano 4KT, David Valens",
+    "al": "KRILLIN",
+    "img": "https://i.scdn.co/image/ab67616d00001e02ac82651806b27a861a3211c7",
+    "u": "https://open.spotify.com/track/3doBhLIr5Jc7cvCuBfwvvk"
    }
   ],
   "artists": [
@@ -96,11 +96,6 @@ var LIVE = {
     "n": "Topboy TGR",
     "img": "https://i.scdn.co/image/ab6761610000f17859bb182d571556cd0939c9dc",
     "u": "https://open.spotify.com/artist/1HYdJRbyNCkiko7TAw9rei"
-   },
-   {
-    "n": "Laufey",
-    "img": "https://i.scdn.co/image/ab6761610000f178c751deb23ed62e7cadfb669a",
-    "u": "https://open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO"
    },
    {
     "n": "Michael Jackson",
@@ -113,9 +108,14 @@ var LIVE = {
     "u": "https://open.spotify.com/artist/5iWAnyg98DLHQqNf4ExyP2"
    },
    {
-    "n": "Romeo Santos",
-    "img": "https://i.scdn.co/image/ab6761610000f178c8be3c6e5a824360d1bffc03",
-    "u": "https://open.spotify.com/artist/5lwmRuXgjX8xIwlnauTZIP"
+    "n": "Laufey",
+    "img": "https://i.scdn.co/image/ab6761610000f178c751deb23ed62e7cadfb669a",
+    "u": "https://open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO"
+   },
+   {
+    "n": "ARIA VEGA",
+    "img": "https://i.scdn.co/image/ab6761610000f17890a0707fd6b5625fece719ee",
+    "u": "https://open.spotify.com/artist/3e9aKKEgSOjIQS9gv2Nr1X"
    }
   ],
   "last": {
@@ -124,7 +124,7 @@ var LIVE = {
    "al": "The Last",
    "img": "https://i.scdn.co/image/ab67616d00001e02791d6daf3d05cde2a646c3cd",
    "u": "https://open.spotify.com/track/7Ln0OEpEiFDMwxHfEMP5aM",
-   "at": "2026-11-21T04:39:54.524Z"
+   "at": "2026-11-22T17:06:34.004Z"
   }
  }
 };
