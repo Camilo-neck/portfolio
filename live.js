@@ -1,8 +1,8 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-22T18:15:56.269Z",
+ "at": "2026-11-23T22:28:11.223Z",
  "gh": {
-  "repos": 42,
+  "repos": 43,
   "followers": 62,
   "following": 58,
   "bio": "FullStack Developer",
@@ -63,13 +63,6 @@ var LIVE = {
     "u": "https://open.spotify.com/track/5uKBhXUSYkwdoV4M6vfn8l"
    },
    {
-    "n": "UNA CHOLA",
-    "a": "Topboy TGR",
-    "al": "+ BULLSHIT",
-    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/5QbsaqT4quDV5d0p8Gmhii"
-   },
-   {
     "n": "GROSERÍAS",
     "a": "Dímelo Flow, Justin Quiles, Topboy TGR",
     "al": "GROSERÍAS",
@@ -89,6 +82,13 @@ var LIVE = {
     "al": "KRILLIN",
     "img": "https://i.scdn.co/image/ab67616d00001e02ac82651806b27a861a3211c7",
     "u": "https://open.spotify.com/track/3doBhLIr5Jc7cvCuBfwvvk"
+   },
+   {
+    "n": "UNA CHOLA",
+    "a": "Topboy TGR",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/5QbsaqT4quDV5d0p8Gmhii"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Yo Quisiera Amarla",
-   "a": "Aventura",
-   "al": "The Last",
-   "img": "https://i.scdn.co/image/ab67616d00001e02791d6daf3d05cde2a646c3cd",
-   "u": "https://open.spotify.com/track/7Ln0OEpEiFDMwxHfEMP5aM",
-   "at": "2026-11-22T17:06:34.004Z"
+   "n": "LA CANCIÓN",
+   "a": "J Balvin, Bad Bunny",
+   "al": "OASIS",
+   "img": "https://i.scdn.co/image/ab67616d00001e024891d9b25d8919448388f3bb",
+   "u": "https://open.spotify.com/track/0fea68AdmYNygeTGI4RC18",
+   "at": "2026-11-23T19:04:03.956Z"
   }
  }
 };
