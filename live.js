@@ -1,9 +1,9 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-23T22:28:11.223Z",
+ "at": "2026-11-24T21:00:04.214Z",
  "gh": {
   "repos": 43,
-  "followers": 62,
+  "followers": 61,
   "following": 58,
   "bio": "FullStack Developer",
   "org": "BetterCampus",
@@ -63,32 +63,32 @@ var LIVE = {
     "u": "https://open.spotify.com/track/5uKBhXUSYkwdoV4M6vfn8l"
    },
    {
-    "n": "GROSERÍAS",
-    "a": "Dímelo Flow, Justin Quiles, Topboy TGR",
-    "al": "GROSERÍAS",
-    "img": "https://i.scdn.co/image/ab67616d00001e02915e7b2c991767249fd37495",
-    "u": "https://open.spotify.com/track/28A6f2ofNfhcbqjP4HxumT"
-   },
-   {
-    "n": "Daikoku",
-    "a": "Eladio Carrion, Topboy TGR",
-    "al": "CORSA",
-    "img": "https://i.scdn.co/image/ab67616d00001e02e95de5752fa81a8611740679",
-    "u": "https://open.spotify.com/track/6g1c531586S5DzdWYraRzv"
-   },
-   {
-    "n": "KRILLIN",
-    "a": "Topboy TGR, Leroy La L, El Americano 4KT, David Valens",
-    "al": "KRILLIN",
-    "img": "https://i.scdn.co/image/ab67616d00001e02ac82651806b27a861a3211c7",
-    "u": "https://open.spotify.com/track/3doBhLIr5Jc7cvCuBfwvvk"
-   },
-   {
     "n": "UNA CHOLA",
     "a": "Topboy TGR",
     "al": "+ BULLSHIT",
     "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
     "u": "https://open.spotify.com/track/5QbsaqT4quDV5d0p8Gmhii"
+   },
+   {
+    "n": "MOSCHINO",
+    "a": "Topboy TGR",
+    "al": "MOSCHINO",
+    "img": "https://i.scdn.co/image/ab67616d00001e02a6ccf82816a06a401aa2dd48",
+    "u": "https://open.spotify.com/track/7JiwvqCk2sI1dXkIrbgaTx"
+   },
+   {
+    "n": "ROBERTO CARLOS",
+    "a": "Topboy TGR",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/7tdfr4nakMVLspfZOvJA7L"
+   },
+   {
+    "n": "GROSERÍAS",
+    "a": "Dímelo Flow, Justin Quiles, Topboy TGR",
+    "al": "GROSERÍAS",
+    "img": "https://i.scdn.co/image/ab67616d00001e02915e7b2c991767249fd37495",
+    "u": "https://open.spotify.com/track/28A6f2ofNfhcbqjP4HxumT"
    }
   ],
   "artists": [
@@ -113,18 +113,18 @@ var LIVE = {
     "u": "https://open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO"
    },
    {
-    "n": "ARIA VEGA",
-    "img": "https://i.scdn.co/image/ab6761610000f17890a0707fd6b5625fece719ee",
-    "u": "https://open.spotify.com/artist/3e9aKKEgSOjIQS9gv2Nr1X"
+    "n": "Feid",
+    "img": "https://i.scdn.co/image/ab6761610000f178408c139196e09d0602518769",
+    "u": "https://open.spotify.com/artist/2LRoIwlKmHjgvigdNGBHNo"
    }
   ],
   "last": {
-   "n": "LA CANCIÓN",
-   "a": "J Balvin, Bad Bunny",
-   "al": "OASIS",
-   "img": "https://i.scdn.co/image/ab67616d00001e024891d9b25d8919448388f3bb",
-   "u": "https://open.spotify.com/track/0fea68AdmYNygeTGI4RC18",
-   "at": "2026-11-23T19:04:03.956Z"
+   "n": "Dirty Diana - 2012 Remaster",
+   "a": "Michael Jackson",
+   "al": "Bad (Remastered)",
+   "img": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
+   "u": "https://open.spotify.com/track/0AcgKF7kbSoCkh3n7vlHwK",
+   "at": "2026-11-24T20:33:04.195Z"
   }
  }
 };
