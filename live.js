@@ -1,9 +1,9 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-24T21:00:04.214Z",
+ "at": "2026-11-25T20:23:38.127Z",
  "gh": {
   "repos": 43,
-  "followers": 61,
+  "followers": 63,
   "following": 58,
   "bio": "FullStack Developer",
   "org": "BetterCampus",
@@ -56,18 +56,18 @@ var LIVE = {
  "sp": {
   "tracks": [
    {
-    "n": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
-    "a": "Petite Meller, Kalman Chodakiewitz, Eli Shiffman",
-    "al": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
-    "img": "https://i.scdn.co/image/ab67616d00001e0254684ebe2a0f2bf6b1023c34",
-    "u": "https://open.spotify.com/track/5uKBhXUSYkwdoV4M6vfn8l"
-   },
-   {
     "n": "UNA CHOLA",
     "a": "Topboy TGR",
     "al": "+ BULLSHIT",
     "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
     "u": "https://open.spotify.com/track/5QbsaqT4quDV5d0p8Gmhii"
+   },
+   {
+    "n": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
+    "a": "Petite Meller, Kalman Chodakiewitz, Eli Shiffman",
+    "al": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
+    "img": "https://i.scdn.co/image/ab67616d00001e0254684ebe2a0f2bf6b1023c34",
+    "u": "https://open.spotify.com/track/5uKBhXUSYkwdoV4M6vfn8l"
    },
    {
     "n": "MOSCHINO",
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Dirty Diana - 2012 Remaster",
-   "a": "Michael Jackson",
-   "al": "Bad (Remastered)",
-   "img": "https://i.scdn.co/image/ab67616d00001e02eb2087dcd1eb61f833bdedff",
-   "u": "https://open.spotify.com/track/0AcgKF7kbSoCkh3n7vlHwK",
-   "at": "2026-11-24T20:33:04.195Z"
+   "n": "Japanese Denim",
+   "a": "Daniel Caesar",
+   "al": "Get You - Single",
+   "img": "https://i.scdn.co/image/ab67616d00001e027465bef53d9e3a27c63c7a1d",
+   "u": "https://open.spotify.com/track/7IVukH71OXfAu3KudrrizN",
+   "at": "2026-11-25T14:41:48.951Z"
   }
  }
 };
