@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-25T20:23:38.127Z",
+ "at": "2026-11-26T19:59:51.000Z",
  "gh": {
   "repos": 43,
   "followers": 63,
@@ -56,20 +56,6 @@ var LIVE = {
  "sp": {
   "tracks": [
    {
-    "n": "UNA CHOLA",
-    "a": "Topboy TGR",
-    "al": "+ BULLSHIT",
-    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
-    "u": "https://open.spotify.com/track/5QbsaqT4quDV5d0p8Gmhii"
-   },
-   {
-    "n": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
-    "a": "Petite Meller, Kalman Chodakiewitz, Eli Shiffman",
-    "al": "In Love With Myself (from Cyberpunk: Edgerunners 2)",
-    "img": "https://i.scdn.co/image/ab67616d00001e0254684ebe2a0f2bf6b1023c34",
-    "u": "https://open.spotify.com/track/5uKBhXUSYkwdoV4M6vfn8l"
-   },
-   {
     "n": "MOSCHINO",
     "a": "Topboy TGR",
     "al": "MOSCHINO",
@@ -84,11 +70,25 @@ var LIVE = {
     "u": "https://open.spotify.com/track/7tdfr4nakMVLspfZOvJA7L"
    },
    {
-    "n": "GROSERÍAS",
-    "a": "Dímelo Flow, Justin Quiles, Topboy TGR",
-    "al": "GROSERÍAS",
-    "img": "https://i.scdn.co/image/ab67616d00001e02915e7b2c991767249fd37495",
-    "u": "https://open.spotify.com/track/28A6f2ofNfhcbqjP4HxumT"
+    "n": "DIOS SABE COMO LO HIZO",
+    "a": "Topboy TGR",
+    "al": "DIOS SABE COMO LO HIZO",
+    "img": "https://i.scdn.co/image/ab67616d00001e02cb2f3b696dad5f7fc46bea20",
+    "u": "https://open.spotify.com/track/7mqTq22nUi8X22ObmiGQUE"
+   },
+   {
+    "n": "KRILLIN",
+    "a": "Topboy TGR, Leroy La L, El Americano 4KT, David Valens",
+    "al": "KRILLIN",
+    "img": "https://i.scdn.co/image/ab67616d00001e02ac82651806b27a861a3211c7",
+    "u": "https://open.spotify.com/track/3doBhLIr5Jc7cvCuBfwvvk"
+   },
+   {
+    "n": "Excellent",
+    "a": "TRAP SZN, Topboy TGR, Tony Monta, Jøtta, Wallance, Fharid On the Beat, Leroy La L",
+    "al": "TURA",
+    "img": "https://i.scdn.co/image/ab67616d00001e0203732a1d701c77a66cad8af0",
+    "u": "https://open.spotify.com/track/1SDq6h0z8rmCnr5FAUZbg0"
    }
   ],
   "artists": [
@@ -119,12 +119,12 @@ var LIVE = {
    }
   ],
   "last": {
-   "n": "Japanese Denim",
-   "a": "Daniel Caesar",
-   "al": "Get You - Single",
-   "img": "https://i.scdn.co/image/ab67616d00001e027465bef53d9e3a27c63c7a1d",
-   "u": "https://open.spotify.com/track/7IVukH71OXfAu3KudrrizN",
-   "at": "2026-11-25T14:41:48.951Z"
+   "n": "Es Válido",
+   "a": "Orquesta Calibre",
+   "al": "La Foto, el Video, la Chicanería",
+   "img": "https://i.scdn.co/image/ab67616d00001e020bd8817a60f05704c1883ce8",
+   "u": "https://open.spotify.com/track/3mM4VE7HlkpeyUtMfvPYNU",
+   "at": "2026-11-26T12:45:24.461Z"
   }
  }
 };
