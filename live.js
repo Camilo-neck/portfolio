@@ -1,6 +1,6 @@
 /* Generado por scripts/live.mjs (GitHub Actions, cada día). No editar a mano. */
 var LIVE = {
- "at": "2026-11-26T19:59:51.000Z",
+ "at": "2026-11-27T19:48:42.580Z",
  "gh": {
   "repos": 43,
   "followers": 63,
@@ -77,18 +77,18 @@ var LIVE = {
     "u": "https://open.spotify.com/track/7mqTq22nUi8X22ObmiGQUE"
    },
    {
-    "n": "KRILLIN",
-    "a": "Topboy TGR, Leroy La L, El Americano 4KT, David Valens",
-    "al": "KRILLIN",
-    "img": "https://i.scdn.co/image/ab67616d00001e02ac82651806b27a861a3211c7",
-    "u": "https://open.spotify.com/track/3doBhLIr5Jc7cvCuBfwvvk"
-   },
-   {
     "n": "Excellent",
     "a": "TRAP SZN, Topboy TGR, Tony Monta, Jøtta, Wallance, Fharid On the Beat, Leroy La L",
     "al": "TURA",
     "img": "https://i.scdn.co/image/ab67616d00001e0203732a1d701c77a66cad8af0",
     "u": "https://open.spotify.com/track/1SDq6h0z8rmCnr5FAUZbg0"
+   },
+   {
+    "n": "DIAMANTES DE SANGRE",
+    "a": "Topboy TGR, Midnvght",
+    "al": "+ BULLSHIT",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b62d3547f95a14ab1cf4113a",
+    "u": "https://open.spotify.com/track/6pEXuYv7tsIJ1EUEQoYySS"
    }
   ],
   "artists": [
@@ -113,18 +113,18 @@ var LIVE = {
     "u": "https://open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO"
    },
    {
-    "n": "Feid",
-    "img": "https://i.scdn.co/image/ab6761610000f178408c139196e09d0602518769",
-    "u": "https://open.spotify.com/artist/2LRoIwlKmHjgvigdNGBHNo"
+    "n": "Aventura",
+    "img": "https://i.scdn.co/image/ab6761610000f1784cd0464ef7d8eb8521f72dd8",
+    "u": "https://open.spotify.com/artist/1qto4hHid1P71emI6Fd8xi"
    }
   ],
   "last": {
-   "n": "Es Válido",
-   "a": "Orquesta Calibre",
-   "al": "La Foto, el Video, la Chicanería",
-   "img": "https://i.scdn.co/image/ab67616d00001e020bd8817a60f05704c1883ce8",
-   "u": "https://open.spotify.com/track/3mM4VE7HlkpeyUtMfvPYNU",
-   "at": "2026-11-26T12:45:24.461Z"
+   "n": "OJITOS PERSAS",
+   "a": "Eslabon Armado, ERRE",
+   "al": "OJITOS PERSAS",
+   "img": "https://i.scdn.co/image/ab67616d00001e02b90ead4339ab55fa0d3c651b",
+   "u": "https://open.spotify.com/track/2uYSP2DhBkq2CVcnyGkfaP",
+   "at": "2026-11-27T18:47:49.307Z"
   }
  }
 };
